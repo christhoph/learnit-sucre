@@ -3,7 +3,7 @@
 <body>
 	<!----- ENCABEZADO UNIVERSAL---->
 
-<?php include ('../head_footed/encabezadoCV.php'); ?>
+<?php include ('../templates/encabezadoCV.php'); ?>
 
         <!--================Blog Area =================-->
         <section class="blog_area single-post-area p_120">
@@ -83,7 +83,7 @@
                       </section>
                       <!--================Blog Area =================-->
                                           <!--================ start footer Area  =================-->
-          <?php include ('../head_footed/pie_paginaCV.php'); ?>
+          <?php include ('../templates/pie_paginaCV.php'); ?>
 
 <!--================ FOOTER UNIVERSAL  =================-->
 </body>

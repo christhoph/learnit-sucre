@@ -3,7 +3,7 @@
 <body>
 	<!----- ENCABEZADO UNIVERSAL---->
 
-<?php include ('../head_footed/encabezadoCV.php'); ?>
+<?php include ('../templates/encabezadoCV.php'); ?>
 	<!--================Header Menu Area =================-->
 
 
@@ -23,7 +23,7 @@
 							<li class="list-item-detail">
 								<a class="list-title-space">TÃ­tulo: </a>
 								<span>Mauricio Rosero
-Ingeniero de Sistemas de la Universidad Politécnica Salesiana.</span>
+Ingeniero de Sistemas de la Universidad Politï¿½cnica Salesiana.</span>
 							</li>
 							<li class="list-item-detail">
 								<a class="list-title-space">Docente: </a>
@@ -31,7 +31,7 @@ Ingeniero de Sistemas de la Universidad Politécnica Salesiana.</span>
 							</li>
 							<li class="list-item-detail">
 								<a class="list-title-space">Carrera: </a>
-								<span>Tecnología Superior en Electricidad</span>
+								<span>Tecnologï¿½a Superior en Electricidad</span>
 							</li>
 							<li class="list-item-detail">
 								<a class="list-title-space">Correo: </a>
@@ -51,7 +51,7 @@ Ingeniero de Sistemas de la Universidad Politécnica Salesiana.</span>
 
 	<!--================ FOOTER UNIVERSAL  =================-->
 
-<?php include ('../head_footed/pie_paginaCV.php'); ?>
+<?php include ('../templates/pie_paginaCV.php'); ?>
 
 <!--================ FOOTER UNIVERSAL  =================-->
 

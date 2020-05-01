@@ -1,6 +1,10 @@
 <!--================Home Banner Area =================-->
 
-<?php include 'head_footed/encabezado.php'; ?>
+<?php 
+	$title = '';  
+	
+	include 'templates/encabezado.php';
+?>
 
 <!--================Header Menu Area =================-->
 
@@ -222,8 +226,7 @@
 										</div>
 									</div>
 
-									<div aria-labelledby="comments-tab" class="tab-pane fade show active" id="comments" role="tabpanel">
-									</div>
+									<div aria-labelledby="comments-tab" class="tab-pane fade show active" id="comments" role="tabpanel"></div>
 								</div>
 							</div>
 						</div>
@@ -236,6 +239,6 @@
 
 <!--================ FOOTER UNIVERSAL  =================-->
 
-<?php include 'head_footed/pie_pagina.php'; ?>
+<?php include 'templates/pie_pagina.php'; ?>
 
 <!--================ FOOTER UNIVERSAL  =================-->

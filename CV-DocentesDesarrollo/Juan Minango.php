@@ -1,81 +1,16 @@
-<!----- ENCABEZADO UNIVERSAL---->
+<?php
+	// header information
+	$title = 'Juan Minango | ';  
+	$tab_active = 2;
 
-<?php include '../head_footed/encabezadoCV.php'; ?>
+	// teacher information
+	$teacher_photo = '../img/Docentes/Tradicional/Desarrollo/Juan Minango.jpg';
+	$teacher_name = 'Juan Minango Tapia';
+	$teacher_professional_title = 'Ingeniero en Sistemas - Universidad Autónoma de Quito';
+	$teacher_educational = 'A medio tiempo en el Sucre Instituto Tecnológico Superior.';
+	$teacher_career = 'Desarrollo de Software.';
+	$teacher_email = 'jminango@tecnologicosucre.edu.ec';
 
-<!--================Course Details Area =================-->
-
-<section class="course_details_area p_120">
-
-	<div class="container course-container">
-
-		<div class="col-lg-12 course_details_inner">
-
-			<div class="col-lg-12 row justify-content-between p-0 m-0">
-
-				<div class="col-lg-5">
-
-					<img class="img-fluid-docentecv" src="../img/Docentes/Tradicional/Desarrollo/Juan Minango.jpg" alt="">
-
-				</div>
-
-				<div class="col-lg-7 c_details_list">
-
-					<h2 class="Name_Doce">Juan Minango Tapia</h2>
-
-					<br>
-
-					<ul class="list">
-
-						<li class="list-item-detail">
-
-							<a class="list-title-space">Título: </a>
-
-							<span>Ingeniero en Sistemas. Universidad Aut&oacute;noma de Quito</span>
-
-						</li>
-
-						<li class="list-item-detail">
-
-							<a class="list-title-space">Docente: </a>
-
-							<span>Medio tiempo en el Instituto Tecnológico Superior Sucre .</span>
-
-						</li>
-
-						<li class="list-item-detail">
-
-							<a class="list-title-space">Carrera: </a>
-
-							<span>Desarrollo de Software.</span>
-
-						</li>
-
-						<li class="list-item-detail">
-
-							<a class="list-title-space">Correo: </a>
-
-							<span>jminango@tecnologicosucre.edu.ec</span>
-
-						</li>
-
-					</ul>
-
-				</div>
-
-			</div>
-
-		</div>
-
-	</div>
-
-</section>
-
-<!--================End Course Details Area =================-->
-
-<!--================ start footer Area  =================-->
-
-<!--================ FOOTER UNIVERSAL  =================-->
-
-<?php include '../head_footed/pie_paginaCV.php'; ?>
-
-<!--================ FOOTER UNIVERSAL  =================-->
+	include '../templates/encabezadoCV.php';
+	include '../templates/teacherCV.php';
+	include '../templates/pie_paginaCV.php';

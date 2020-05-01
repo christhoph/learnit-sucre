@@ -1,95 +1,66 @@
-!DOCTYPE html>
+<!----- ENCABEZADO UNIVERSAL---->
 
-<html lang="es">
+<?php include '../templates/encabezadoCV.php'; ?>
 
-<body>
+<!--================Course Details Area =================-->
 
-	<!----- ENCABEZADO UNIVERSAL---->
+<section class="course_details_area p_120">
 
+	<div class="container course-container">
 
+		<div class="col-lg-12 course_details_inner">
 
-<?php include ('../head_footed/encabezadoCV.php'); ?>
+			<div class="col-lg-12 row justify-content-between p-0 m-0">
 
-	<!--================Header Menu Area =================-->
+				<div class="col-lg-5">
 
-
-
-
-
-	<!--================Course Details Area =================-->
-
-	<section class="course_details_area p_120">
-
-		<div class="container course-container">
-
-			<div class="col-lg-12 course_details_inner">
-
-				<div class="col-lg-12 row justify-content-between p-0 m-0">
-
-					<div class="col-lg-5">
-
-					     <!--<h2 class="Name_Doce">Diego Bonilla Ron</h2>-->
-
-						<img class="img-fluid-docentecv" src="../img/Docentes/Tradicional/ElectromecanicaIndustrial/VERÓNICA MOSQUERA HERNANDEZ 1716563067.jpeg"
-
-"
-
-
-								alt="">
-
-					</div>
-
-					<div class="col-lg-7 c_details_list">
-
-					    <h2 class="Name_Doce">Verónica Mosquera Hernández</h2>
-
-					    <br>
-
-					 <ul class="list">
-
-							<li class="list-item-detail">
-
-								<a class="list-title-space">Título: </a>
-
-								<span>Psicóloga Clínica, Pontificia Universidad Católica del Ecuador</span>
-
-							</li>
-
-							<li class="list-item-detail">
-
-								<a class="list-title-space">Docente: </a>
-
-								<span>A tiempo completo en el Instituto Superior Tecnológico SUCRE</span>
-
-							</li>
-
-							<li class="list-item-detail">
-
-								<a class="list-title-space">Carrera: </a>
-
-								<span>Electromecánica </span>
-
-							</li>
-
-							<li class="list-item-detail">
-
-								<a class="list-title-space">Correo: </a>
-
-								<span>vmosquera@tecnologicosucre.edu.ec</span>
-
-							</li>
-
-						</ul>
-
-					</div>
+					<img class="img-fluid-docentecv"
+						src="../img/Docentes/Tradicional/ElectromecanicaIndustrial/VERÓNICA MOSQUERA HERNANDEZ 1716563067.jpeg"
+						alt="">
 
 				</div>
 
-				
+				<div class="col-lg-7 c_details_list">
 
-						</div>
+					<h2 class="Name_Doce">Verónica Mosquera Hernández</h2>
 
-					</div>
+					<br>
+
+					<ul class="list">
+
+						<li class="list-item-detail">
+
+							<a class="list-title-space">Título: </a>
+
+							<span>Psicóloga Clínica, Pontificia Universidad Católica del Ecuador</span>
+
+						</li>
+
+						<li class="list-item-detail">
+
+							<a class="list-title-space">Docente: </a>
+
+							<span>A tiempo completo en el Instituto Superior Tecnológico SUCRE</span>
+
+						</li>
+
+						<li class="list-item-detail">
+
+							<a class="list-title-space">Carrera: </a>
+
+							<span>Electromecánica </span>
+
+						</li>
+
+						<li class="list-item-detail">
+
+							<a class="list-title-space">Correo: </a>
+
+							<span>vmosquera@tecnologicosucre.edu.ec</span>
+
+						</li>
+
+					</ul>
 
 				</div>
 
@@ -97,25 +68,14 @@
 
 		</div>
 
-	</section>
+	</div>
 
-	<!--================End Course Details Area =================-->
+</section>
 
-
-
-		<!--================ FOOTER UNIVERSAL  =================-->
-
-
-
-<?php include ('../head_footed/pie_paginaCV.php'); ?>
-
-
+<!--================End Course Details Area =================-->
 
 <!--================ FOOTER UNIVERSAL  =================-->
 
+<?php include '../templates/pie_paginaCV.php'; ?>
 
-
-</body>
-
-</html>
-
+<!--================ FOOTER UNIVERSAL  =================-->

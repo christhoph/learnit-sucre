@@ -1,15 +1,15 @@
 <?php
 	// header information
-	$title = 'Cristian Aldana | ';  
+	$title = 'Juan Moreno | ';  
 	$tab_active = 2;
 
 	// teacher information
-	$teacher_photo = '../img/Docentes/Tradicional/Contabilidad/Cristian Aldana.jpg';
-	$teacher_name = 'Cristian Aldana Cruz';
-	$teacher_professional_title = 'Ingeniero en Contabilidad y Auditoría CPA - Universidad Politécnica Salesiana';
+	$teacher_photo = '../img/Docentes/Tradicional/Contabilidad/Juan Moreno.jpg';
+	$teacher_name = 'Juan Moreno Cruz';
+	$teacher_professional_title = 'Licenciado en Contabilidad y Auditoria - Universidad Central del Ecuador';
 	$teacher_educational = 'A tiempo completo en el Sucre Instituto Tecnológico Superior.';
 	$teacher_career = 'Contabilidad Superior.';
-	$teacher_email = 'caldana@tecnologicosucre.edu.ec';
+	$teacher_email = 'jmoreno@tecnologicosucre.edu.ec';
 
 	include '../templates/encabezadoCV.php';
 	include '../templates/teacherCV.php';

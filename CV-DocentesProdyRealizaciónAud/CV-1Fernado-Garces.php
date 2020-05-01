@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <!--================Header Menu Area =================-->
-<?php include ('../head_footed/encabezado.php'); ?>
+<?php include ('../templates/encabezado.php'); ?>
 
 
 
@@ -189,7 +189,7 @@
 	<!--================End Course Details Area =================-->
  <!--================ start footer Area  =================-->
 
-<?php include ('../head_footed/pie_paginaCV.php'); ?>
+<?php include ('../templates/pie_paginaCV.php'); ?>
 
 <!--================End footer Area =================-->
 </html>

@@ -3,7 +3,7 @@
 <body>
 	<!----- ENCABEZADO UNIVERSAL---->
 
-<?php include ('../head_footed/encabezadoCV.php'); ?>
+<?php include ('../templates/encabezadoCV.php'); ?>
 	<!--================Header Menu Area =================-->
 
 	<!--================End Home Banner Area =================-->
@@ -48,7 +48,7 @@
 		</div>
 	</section>
 	<!--================End Course Details Area =================-->
-	<?php include ('../head_footed/pie_paginaCV.php'); ?>
+	<?php include ('../templates/pie_paginaCV.php'); ?>
 
 <!--================ FOOTER UNIVERSAL  =================-->
 

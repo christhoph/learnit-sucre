@@ -69,7 +69,7 @@ body {
   font-size: 20px;
   font-family: "Roboto";
   font-weight: normal;
-  color: #444444 ;                                                         /*COLOR DEL TEXTO DE INFORMACION DEL INSTTUTO EJE: MENSAJE DEL RECTOR en color gris claro*/
+  color: #444444; /*COLOR DEL TEXTO DE INFORMACION DEL INSTTUTO EJE: MENSAJE DEL RECTOR en color gris claro*/
 }
 
 h1,
@@ -77,7 +77,7 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
@@ -87,8 +87,9 @@ button:focus {
   box-shadow: none;
 }
 
-.p_120 {                                                                     /*BORDE ENTRE LA IMAGEN Y LA SECCION DE INFORMACION DEL INSTITUTO*/
-  padding-top: 54px  ;
+.p_120 {
+  /*BORDE ENTRE LA IMAGEN Y LA SECCION DE INFORMACION DEL INSTITUTO*/
+  padding-top: 54px;
   padding-bottom: 10px;
 }
 
@@ -120,7 +121,7 @@ button:focus {
   margin: 0px auto 75px;
 }
 .main_title h2 {
-  font-family: "Roboto", serif;                                                                  /*<-----------------------------TEXTO INICIAL H2*/
+  font-family: "Roboto", serif; /*<-----------------------------TEXTO INICIAL H2*/
   font-size: 36px;
   color: #222222;
   margin-bottom: 12px;
@@ -296,7 +297,11 @@ button:focus {
   margin-right: 0px;
 }
 .top_menu .header_social li:hover a {
-  color: rgb(33, 78, 175);;                                                               /*<-----------------COLOR AZUL HOVER REDES SOCIALES HEADER*/
+  color: rgb(
+    33,
+    78,
+    175
+  ); /*<-----------------COLOR AZUL HOVER REDES SOCIALES HEADER*/
 }
 .top_menu .dn_btn {
   line-height: 42px;
@@ -309,7 +314,7 @@ button:focus {
   transition: all 300ms linear 0s;
 }
 .top_menu .dn_btn:hover {
-  color: rgb(33, 78, 175);                                                                   /*<-----------------COLOR AZUL HOVER EMAILS HEADER*/
+  color: rgb(33, 78, 175); /*<-----------------COLOR AZUL HOVER EMAILS HEADER*/
 }
 .top_menu .dn_btn:last-child {
   margin-right: 0px;
@@ -611,7 +616,8 @@ button:focus {
 .banner_area .banner_inner .banner_content .page_link a:last-child:before {
   display: none;
 }
-.banner_area .banner_inner .banner_content .page_link a:hover {                                               /* <-----COLOR AZUL hover HOME AREA*/
+.banner_area .banner_inner .banner_content .page_link a:hover {
+  /* <-----COLOR AZUL hover HOME AREA*/
   color: rgb(33, 78, 175);
 }
 
@@ -1901,7 +1907,6 @@ h1 {
 
 h2 {
   font-size: 30px;
-
 }
 
 h3 {
@@ -1918,8 +1923,8 @@ h5 {
 
 h6 {
   font-size: 19px;
-  color:#494848;                                                                                              /*<------------------color gris mas oscuro*/
-  font-family: "Roboto"                                                                                     /*<-----------------------H6 estilos*/
+  color: #494848; /*<------------------color gris mas oscuro*/
+  font-family: "Roboto"; /*<-----------------------H6 estilos*/
 }
 
 .typography h1,
@@ -3155,7 +3160,6 @@ h6 {
 /* Testimonials Area css
 ============================================================================================ */
 
-
 /* End Testimonials Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -3174,7 +3178,7 @@ h6 {
 ============================================================================================ */
 .course_details_inner .nav.nav-tabs {
   border: none;
-  margin-top: 0;                                                                                           /*INFORMACION DEL RECTOR Y DEMAS*/
+  margin-top: 0; /*INFORMACION DEL RECTOR Y DEMAS*/
 }
 .course_details_inner .nav.nav-tabs li {
   margin: 1 5px;
@@ -3191,14 +3195,14 @@ h6 {
   border-bottom: 1px solid transparent;
 }
 .course_details_inner .nav.nav-tabs li a.active {
-  border-color: blue;                                                                /* <--------------- TITULO ORGANIZACION SUBRAYADO*/                                                              
+  border-color: blue; /* <--------------- TITULO ORGANIZACION SUBRAYADO*/
 }
 .course_details_inner .nav.nav-tabs li:last-child {
   margin-right: 0px;
 }
 .course_details_inner .tab-content {
   background: #f9f9ff;
-  text-align: justify;                                                                /* <--------------- INFORMACION JUSTIFICADA*/
+  text-align: justify; /* <--------------- INFORMACION JUSTIFICADA*/
 }
 
 .course_details_inner .tab-content .comments-area {
@@ -3255,8 +3259,8 @@ h6 {
   color: #777777;
 }
 .c_details_list .list li a span {
-   float: right;
-   padding-left: 8px;
+  float: right;
+  padding-left: 8px;
 }
 .c_details_list .list li:first-child a span {
   color: #4dbf1c;
@@ -3272,7 +3276,6 @@ h6 {
 /* Finance Area css
 ============================================================================================ */
 
-
 /* End Looking Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -3280,15 +3283,12 @@ h6 {
 /* Price Area css
 ============================================================================================ */
 
-
-
 /* End Price Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* About Area css
 ============================================================================================ */
-
 
 /* End About Area css
 ============================================================================================ */
@@ -3523,21 +3523,20 @@ h6 {
 /* Course Details - C */
 
 .course-container {
-  max-width: 100%;                                                /*<-----------DISTANCIA ENTRE LA INFORMACION DEL INSTITUTO Y EL CONTENIDO EXTERNO DE LA PAGINA*/
+  max-width: 100%; /*<-----------DISTANCIA ENTRE LA INFORMACION DEL INSTITUTO Y EL CONTENIDO EXTERNO DE LA PAGINA*/
   margin: 0;
-  margin-top: 0px;  
+  margin-top: 0px;
   padding: 0;
 }
-.img-rector{
+.img-rector {
   padding-top: 23px;
- /* margin-left:460px;*/
+  /* margin-left:460px;*/
 }
-.info-rectorimg{
-   /*padding-top: 23px;*/
-   margin-right:60px;
+.info-rectorimg {
+  /*padding-top: 23px;*/
+  margin-right: 60px;
   /*text-align: center;*/
 }
-
 
 /* End Course Details */
 

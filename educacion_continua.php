@@ -1,6 +1,6 @@
 <!--================Header Menu Area =================-->
 
-<?php include 'head_footed/encabezado.php'; ?>
+<?php include 'templates/encabezado.php'; ?>
 
 <!--================Blog Area =================-->
 
@@ -259,6 +259,6 @@
 
 <!--================ FOOTER UNIVERSAL  =================-->
 
-<?php include 'head_footed/pie_pagina.php'; ?>
+<?php include 'templates/pie_pagina.php'; ?>
 
 <!--================ FOOTER UNIVERSAL  =================-->

@@ -8,7 +8,7 @@
 
 
 
-<?php include ('../head_footed/encabezadoCV.php'); ?>
+<?php include ('../templates/encabezadoCV.php'); ?>
 
 	<!--================Header Menu Area =================-->
 
@@ -98,7 +98,7 @@
 
 
 
-<?php include ('../head_footed/pie_paginaCV.php'); ?>
+<?php include ('../templates/pie_paginaCV.php'); ?>
 
 
 

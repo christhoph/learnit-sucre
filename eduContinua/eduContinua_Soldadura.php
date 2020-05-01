@@ -8,7 +8,7 @@
 </head>
 <!----- ENCABEZADO UNIVERSAL---->
 
-<?php include ('../head_footed/encabezadoCV.php'); ?>
+<?php include ('../templates/encabezadoCV.php'); ?>
   <!--================Header Menu Area =================-->
 
   <!--================Course Details Area =================-->
@@ -241,7 +241,7 @@ Para más información comunicarse al número 02 2547-356 ext 104
   
   <!--================ FOOTER UNIVERSAL  =================-->
 
-<?php include ('head_footed/pie_pagina.php'); ?>
+<?php include ('templates/pie_pagina.php'); ?>
 
 <!--================ FOOTER UNIVERSAL  =================-->
 </html>
