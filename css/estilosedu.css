@@ -1,0 +1,89 @@
+/*html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.06em;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+*/
+.container .card {
+  overflow: hidden;
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.7);
+}
+
+.container .card img {
+  width: 360px;
+  height: 220px;
+  transition: all 0.5s ease;
+}
+
+.container .card:hover img {
+  /*width: 365px;
+    height: 230px;*/
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.container .card h4 {
+  margin-top: 1rem;
+  color: var(--primary);
+  font-size: 1.125em;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+.container .card:hover h4 {
+  font-weight: 701;
+  color: var(--primary);
+}
+
+.container .card p {
+  padding: 0 1rem;
+  font-size: 0.8em;
+  color: rgb(92, 91, 91);
+  font-weight: 300;
+}
+
+.container .card a {
+  font-size: 0.8em;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--primary);
+}
