@@ -1,124 +1,16 @@
-<!DOCTYPE html>
-
-<html lang="es">
-
-<body>
-
-	<!----- ENCABEZADO UNIVERSAL---->
-
-
-
-<?php include ('../templates/encabezadoCV.php'); ?>
-
-	<!--================Header Menu Area =================-->
-
-
-
-	<!--================Header Menu Area =================-->
-
-
-
-
-
-	<!--================Course Details Area =================-->
-
-	<section class="course_details_area p_120">
-
-		<div class="container course-container">
-
-			<div class="col-lg-12 course_details_inner">
-
-				<div class="col-lg-12 row justify-content-between p-0 m-0">
-
-					<div class="col-lg-5">
-
-					
-
-						<img class="img-fluid-docentecv" src="../img/Docentes/Tradicional/Marketing/Eugenia Sanchez.jpg" 
-
-								alt="">
-
-					</div>
-
-
-					<div class="col-lg-7 c_details_list">
-
-					    <h2 class="Name_Doce">Eugenia S&aacute;nchez Raza </h2>
-
-					    <br>
-
-					 <ul class="list">
-
-							<li class="list-item-detail">
-
-								<a class="list-title-space">Título: </a>
-
-								<span>Ingeniera en Administraci&oacuten de Empresas. Universidad Central del Ecuador</span>
-
-							</li>
-
-							<li class="list-item-detail">
-
-								<a class="list-title-space">Docente: </a>
-
-								<span>Tiempo completo en el Instituto Tecnológico Superior Sucre .</span>
-
-							</li>
-
-							<li class="list-item-detail">
-
-								<a class="list-title-space">Carrera: </a>
-
-								<span>Marketing.</span>
-
-							</li>
-
-							<li class="list-item-detail">
-
-								<a class="list-title-space">Correo: </a>
-
-								<span>esanchez@tecnologicosucre.edu.ec</span>
-
-							</li>
-
-						</ul>
-
-					</div>
-
-				</div>
-
-				
-
-						</div>
-
-					</div>
-
-				</div>
-
-			</div>
-
-		</div>
-
-	</section>
-
-	<!--================End Course Details Area =================-->
-
-
-
-	<!--================ start footer Area  =================-->
-
-	<!--================ FOOTER UNIVERSAL  =================-->
-
-
-
-	<?php include ('../templates/pie_paginaCV.php'); ?>
-
-
-
-<!--================ FOOTER UNIVERSAL  =================-->
-
-
-
-</body>
-
-</html>
+<?php
+	// header information
+	$title = 'Eugenia Sánchez | ';  
+	$tab_active = 2;
+
+	// teacher information
+	$teacher_photo = '../img/Docentes/Tradicional/Marketing/Eugenia Sanchez.jpg';
+	$teacher_name = 'Eugenia Sánchez Raza';
+	$teacher_professional_title = 'Ingeniera en Administración de Empresas - Universidad Central del Ecuador';
+	$teacher_educational = 'A tiempo completo en el Sucre Instituto Tecnológico Superior.';
+	$teacher_career = 'Marketing.';
+	$teacher_email = 'esanchez@tecnologicosucre.edu.ec';
+
+	include '../templates/encabezadoCV.php';
+	include '../templates/teacherCV.php';
+	include '../templates/pie_paginaCV.php';
