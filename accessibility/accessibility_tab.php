@@ -1,6 +1,12 @@
 <div class="accessibility_tab">
   <div class="accessibility_tab-menu">
     <div id="up_size" class="tab_menu-item">
+      <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="font" role="img"
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-font fa-w-14 fa-2x">
+        <path fill="currentColor"
+          d="M432 432h-33.32l-135-389.24A16 16 0 0 0 248.55 32h-49.1a16 16 0 0 0-15.12 10.76L49.32 432H16a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16h-35.44l33.31-96h164.26l33.31 96H304a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16zM158.53 288L224 99.31 289.47 288z"
+          class=""></path>
+      </svg>
       <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="plus" role="img"
         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-plus fa-w-12 fa-2x">
         <path fill="currentColor"
@@ -17,6 +23,12 @@
       </svg>
     </div>
     <div id="down_size" class="tab_menu-item">
+      <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="font" role="img"
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-font fa-w-14 fa-2x">
+        <path fill="currentColor"
+          d="M432 432h-33.32l-135-389.24A16 16 0 0 0 248.55 32h-49.1a16 16 0 0 0-15.12 10.76L49.32 432H16a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16h-35.44l33.31-96h164.26l33.31 96H304a16 16 0 0 0-16 16v16a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16v-16a16 16 0 0 0-16-16zM158.53 288L224 99.31 289.47 288z"
+          class=""></path>
+      </svg>
       <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="minus" role="img"
         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-minus fa-w-12 fa-2x">
         <path fill="currentColor"
@@ -32,11 +44,5 @@
           class=""></path>
       </svg>
     </div>
-    <!-- <div class="tab_close-icon">
-				<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" class="svg-inline--fa fa-caret-left fa-w-6 fa-2x"><path fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z" class=""></path></svg>
-			</div>
-			<div class="tab_open-icon">
-				<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" class="svg-inline--fa fa-caret-right fa-w-6 fa-2x"><path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z" class=""></path></svg>
-			</div> -->
   </div>
 </div>

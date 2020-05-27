@@ -1,7 +1,7 @@
 <section class="team_area p_120">
   <div class="container">
     <div class="main_title">
-      <p class="Titulo-Docentes"><?php echo $career_title; ?></p>
+      <p class="titulo-docentes"><?php echo $career_title; ?></p>
     </div>
     <div class="row team_inner">
       <?php

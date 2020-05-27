@@ -1,6 +1,11 @@
 <!----- ENCABEZADO UNIVERSAL---->
 
-<?php include 'templates/encabezado.php'; ?>
+<?php 
+	$title = 'Bienestar estudiantil | ';  
+	$tab_active = 4;
+	
+	include 'templates/encabezado.php';
+?>
 
 <!--================Header Menu Area =================-->
 
@@ -11,7 +16,7 @@
         <h1 class="textbienestar">UNIDAD DE BIENESTAR ESTUDIANTIL</h1>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row text-container">
             <div class="single-post row">
                 <div class="col-lg-12 col-md-12 blog_details">
 

@@ -73,7 +73,7 @@
       </div>
       <div class="main_menu">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="contene">
+          <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <a class="navbar-brand logo_h" href="../index.php"><img src="../img/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -207,16 +207,12 @@
                           </div>
                         </div>
                         <div class="new-nav-item new-menu-2">
-                          <div class="new-submenu-2">
-                            <a href="../DCentroIdiomas.php" class="new-nav-link">Centro de Idiomas</a>
-                          </div>
+                          <a href="../DCentroIdiomas.php" class="new-nav-link">Centro de Idiomas</a>
                         </div>
                         <div class="new-nav-item new-menu-2">
-                          <div class="new-submenu-2">
-                            <a href="https://forms.gle/SyLAYQu1dqXX7n5m9" class="new-nav-link" target="_blank">
-                              Registro Docentes
-                            </a>
-                          </div>
+                          <a href="https://forms.gle/SyLAYQu1dqXX7n5m9" class="new-nav-link" target="_blank">
+                            Registro Docentes
+                          </a>
                         </div>
                       </div>
                     </li>

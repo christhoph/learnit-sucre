@@ -1,7 +1,7 @@
 <!----- ENCABEZADO UNIVERSAL---->
 
 <?php 
-	$title = '';  
+	$title = '';
 	$tab_active = 1;
 	
 	include 'templates/encabezado.php';
@@ -116,9 +116,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
-				<div class="course_item grid-careers-large">
-					<img class="car4" src="img/courses/produccion_textil.jpg" alt="">
+			<div class="col-lg-3 col-md-6 px-2 mb-4">
+				<div class="course_item grid-careers-large textil-box">
 					<div class="hover_text">
 						<a class="cat" href="produccion-textil.php">Ingresar</a>
 						<h4>PRODUCCIÓN TEXTIL</h4>
@@ -129,9 +128,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3">
-				<div class="course_item">
-					<img class="car4" src="img/courses/course-9.jpg" alt="">
+			<div class="col-lg-3 col-md-6 px-2 mb-4">
+				<div class="course_item software-box">
 					<div class="hover_text">
 						<a class="cat" href="desarrollo-software.html">Ingresar</a>
 						<h4>DESARROLLO DE SOFTWARE</h4>
@@ -204,7 +202,7 @@
 
 
 <!--================Destacados Area =================-->
-<section class="destacados">
+<section class="destacados p_120">
 	<div>
 		<h4 class="destacado-titulo">
 			Destacados

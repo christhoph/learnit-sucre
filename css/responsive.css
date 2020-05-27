@@ -47,7 +47,10 @@
     min-height: 700px;
   }
   /* End Home Banner Area css
-	============================================================================================ */
+  ============================================================================================ */
+  .latest_blog_inner {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 991px) {
@@ -220,6 +223,16 @@
   .c_details_list {
     margin-top: 30px;
   }
+  .home_banner_area {
+    height: inherit;
+  }
+  .container .card {
+    margin: 12px;
+  }
+  .portafolio-item .portafolio-text {
+    transform: translateY(0%);
+    text-align: center;
+  }
 }
 
 @media (max-width: 767px) {
@@ -232,6 +245,7 @@
   }
   .teachers-banner {
     min-height: 500px !important;
+    padding: 0 0.5rem;
   }
   /* Blog Page Area css
 	============================================================================================ */
@@ -288,31 +302,31 @@
   }
 
   .course_details_inner {
-		padding: 0;
+    padding: 0;
   }
-  
-	.course_details_inner div .nav li {
-		margin: 0 !important;
+
+  .course_details_inner div .nav li {
+    margin: 0 !important;
   }
 
   .course_details_inner div .nav {
-		flex-flow: column wrap;
-	}
+    flex-flow: column wrap;
+  }
 
-	.course_details_inner div .nav li a {
-		display: flex;
-		justify-content: center;
-		align-items: center;
+  .course_details_inner div .nav li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .container.table-container {
     padding: 0;
   }
-  
+
   .table-container table th {
     font-size: 1rem;
   }
-  
+
   .table-container table td {
     font-size: 0.8rem;
   }
@@ -327,6 +341,31 @@
 
   .industrial-ofert-image {
     width: 100%;
+  }
+  .course_details_inner .tab-content .comments-area {
+    display: flex;
+    flex-direction: column;
+  }
+  .Name_Doce {
+    text-align: center;
+  }
+  .list-title-space {
+    min-width: 100px;
+  }
+  .teacher-email {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .teacher-email .list-title-space {
+    min-width: 100%;
+  }
+  .teacher-email span {
+    font-size: 4.5vmin;
+  }
+  .textoOLTI,
+  .textoOLT {
+    padding: 0 1.5rem;
   }
 }
 
@@ -352,14 +391,31 @@
   /* End Home Banner Area css
 	============================================================================================ */
   .p_120 {
-    padding: 70px 0;
-	}
-	.main_title {
-		padding: 2rem;
-	}
+    padding: 3rem 0;
+  }
+  .main_title {
+    padding: 2rem;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
   .main_title h2 {
     font-size: 25px;
-	}
+  }
+  .p_120 .main_title,
+  .team_area.p_120,
+  .courses_area.p_120,
+  .main_title.p_120 {
+    padding: 0;
+  }
+  .container .card {
+    margin: 20px auto;
+  }
+  .spacing {
+    padding: 0 2.5rem;
+  }
+  .team_area {
+    margin-bottom: 2rem;
+  }
   /* Elements Area css
 	============================================================================================ */
   .sample-text-area {
@@ -370,7 +426,7 @@
   }
   /* End Elements Area css
   ============================================================================================ */
-  
+
   .comment-text-blockquote {
     padding: 0;
     line-height: 1.5rem;
@@ -388,7 +444,17 @@
     line-height: 38px;
   }
   /* End Blog Page Area css
-	============================================================================================ */
+  ============================================================================================ */
+
+  .caja-noticia {
+    height: inherit;
+    width: inherit;
+  }
+
+  .contrast .header_area .navbar .nav .nav-item .nav-link {
+    color: #000;
+  }
+
   /* Footer Area css
 	============================================================================================ */
   .footer-area {
@@ -432,7 +498,20 @@
   }
   .home_banner_area,
   .home_banner_area .banner_inner {
-    min-height: max-content;
+    height: max-content;
+  }
+  .img-rector {
+    /*Foto del rector*/
+    margin-left: 0.5rem;
+  }
+  .info-rector {
+    padding: 0.5rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  .info-rectorimg {
+    /*Nombre y cargo del rector*/
+    margin-left: 0.5rem;
   }
   /* Blog Page Area css
 	============================================================================================ */

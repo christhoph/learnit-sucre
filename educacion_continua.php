@@ -1,6 +1,12 @@
 <!--================Header Menu Area =================-->
 
-<?php include 'templates/encabezado.php'; ?>
+<?php
+  // header information
+	$title = 'Educación continua | ';
+  $tab_active = 6;
+  
+  include 'templates/encabezado.php';
+?>
 
 <!--================Blog Area =================-->
 

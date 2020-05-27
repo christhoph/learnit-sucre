@@ -1,228 +1,91 @@
-<?php include "templates/encabezado.php"; ?>
-<!--================END Header Menu Area =================-->
+<?php
+	// header information
+	$title = 'Electromecánica | ';
+	$tab_active = 2;
 
-<!--================Team Area =================-->
-<section class="team_area p_120">
-	<div class="container">
-		<div class="main_title">
-			<p class="Titulo-Docentes">DOCENTES DE LA CARRERA DE ELECTROMECÁNICA</p>
-		</div>
-		<div class="row team_inner">
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesElectromecánica/CV-DavidSaquinga-Daquilema.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/ElectromecanicaIndustrial/DAVID SAQUINGA DAQUILEMA 1712912045.jpeg"
-									alt="">
-								<section class="portafolio-text">
-									<h2>David Saquinga</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesElectromecánica/CV-ChristianAguirre-electromecanica.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/ElectromecanicaIndustrial/CRISTIAN AGUIRRE ALQUINGA 1711886851.jpeg"
-									alt="">
-								<section class="portafolio-text">
-									<h2>Cristian Aguirre</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesElectromecánica/CV-JoseCarguachi-electromecanica.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/ElectromecanicaIndustrial/JOSÉ CARGUACHI CAIZATOA 1717010977.jpeg"
-									alt="">
-								<section class="portafolio-text">
-									<h2>José Carguachi</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
+	// career & teachers information
+	$career_title = 'DOCENTES DE LA CARRERA DE ELECTROMECÁNICA';
+	$teachers = array(
+		// DOCENTE #1
+		array(
+			'url'		=>	'CV-DocentesElectromecánica/CV-DavidSaquinga-Daquilema.php',
+			'photo'	=>	'img/Docentes/Tradicional/ElectromecanicaIndustrial/DAVID SAQUINGA DAQUILEMA 1712912045.jpeg',
+			'name'	=>	'David Saquinga'
+		),
+		// DOCENTE #2
+		array(
+			'url'		=>	'CV-DocentesElectromecánica/CV-ChristianAguirre-electromecanica.php',
+			'photo'	=>	'img/Docentes/Tradicional/ElectromecanicaIndustrial/CRISTIAN AGUIRRE ALQUINGA 1711886851.jpeg',
+			'name'	=>	'Cristian Aguirre'
+		),
+		// DOCENTE #3
+		array(
+			'url'		=>	'CV-DocentesElectromecánica/CV-JoseCarguachi-electromecanica.php',
+			'photo'	=>	'img/Docentes/Tradicional/ElectromecanicaIndustrial/JOSÉ CARGUACHI CAIZATOA 1717010977.jpeg',
+			'name'	=>	'José Carguachi'
+		),
+		// DOCENTE #4
+		array(
+			'url'		=>	'CV-DocentesElectromecánica/CV-PabloPinos-electromecanica.php',
+			'photo'	=>	'img/Docentes/Tradicional/ElectromecanicaIndustrial/PABLO PINOS GUARTAMBER 0301579488.jpeg',
+			'name'	=>	'Pablo Pinos'
+		),
+		// DOCENTE #5
+		array(
+			'url'		=>	'CV-DocentesElectromecánica/CV-ChristianAcostaUlloa.php',
+			'photo'	=>	'img/Docentes/Tradicional/ElectromecanicaIndustrial/CHRISTIAN ACOSTA ULLOA 1803121357.jpeg',
+			'name'	=>	'Christian Acosta'
+		),
+		// DOCENTE #6
+		array(
+			'url'		=>	'CV-DocentesElectromecánica/CV-GabrielaYepez-electromecanica.php',
+			'photo'	=>	'img/Docentes/Tradicional/ElectromecanicaIndustrial/GABRIELA  YEPEZ POSSO 1804626412.jpeg',
+			'name'	=>	'Gabriela Yépez'
+		),
+		// DOCENTE #7
+		array(
+			'url'		=>	'CV-DocentesElectromecánica/CV-JennyCarillo-electromecanica.php',
+			'photo'	=>	'img/Docentes/Tradicional/ElectromecanicaIndustrial/JENNY CARRILLO TORRES 1714604491.jpeg',
+			'name'	=>	'Jenny Carrillo'
+		),
+		// DOCENTE #8
+		array(
+			'url'		=>	'CV-DocentesElectromecánica/CV-JorgeChango-electromecanica.php',
+			'photo'	=>	'img/Docentes/Tradicional/ElectromecanicaIndustrial/JORGE CHANGO CORREA 1713298733.jpeg',
+			'name'	=>	'Jorge Chango'
+		),
+		// DOCENTE #9
+		array(
+			'url'		=>	'CV-DocentesElectromecánica/CV-EdwinCastelo-electromecanica.php',
+			'photo'	=>	'img/Docentes/Tradicional/ElectromecanicaIndustrial/EDWIN CASTELO VINUEZA 1714292792.jpeg',
+			'name'	=>	'Edwin Castelo'
+		),
+		// DOCENTE #10
+		array(
+			'url'		=>	'CV-DocentesElectromecánica/CV-VictoriaGuano-electromecanica.php',
+			'photo'	=>	'img/Docentes/Tradicional/ElectromecanicaIndustrial/VICTORIA GUANO REYES 0502934920.jpeg',
+			'name'	=>	'Victoria Guano'
+		),
+		// DOCENTE #11
+		array(
+			'url'		=>	'CV-DocentesElectromecánica/CV-DavidHerrera-electromecanica.php',
+			'photo'	=>	'img/Docentes/Tradicional/ElectromecanicaIndustrial/DAVID HERRERA MERINO 1719089573.jpeg',
+			'name'	=>	'David Herrera'
+		),
+		// DOCENTE #12
+		array(
+			'url'		=>	'CV-DocentesElectromecánica/CV-Veronica Mosquera Hernandez.php',
+			'photo'	=>	'img/Docentes/Tradicional/ElectromecanicaIndustrial/VERÓNICA MOSQUERA HERNANDEZ 1716563067.jpeg',
+			'name'	=>	'Verónica Mosquera'
+		),
+		// DOCENTE #13
+		array(
+			'url'		=>	'CV-DocentesElectromecánica/CV-VeronicaAndrade-electromecanica.php',
+			'photo'	=>	'img/Docentes/Tradicional/ElectromecanicaIndustrial/VERÓNICA ANDRADE GARCIA 1718689472.jpeg',
+			'name'	=>	'Veronica Andrade'
+		),
+	);
 
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesElectromecánica/CV-PabloPinos-electromecanica.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/ElectromecanicaIndustrial/PABLO PINOS GUARTAMBER 0301579488.jpeg"
-									alt="">
-								<section class="portafolio-text">
-									<h2>Pablo Pinos</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesElectromecánica/CV-ChristianAcostaUlloa.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/ElectromecanicaIndustrial/CHRISTIAN ACOSTA ULLOA 1803121357.jpeg"
-									alt="">
-								<section class="portafolio-text">
-									<h2>Christian Acosta</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-			</div>
-
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesElectromecánica/CV-GabrielaYepez-electromecanica.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/ElectromecanicaIndustrial/GABRIELA  YEPEZ POSSO 1804626412.jpeg" alt="">
-								<section class="portafolio-text">
-									<h2>Gabriela Yépez</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesElectromecánica/CV-JennyCarillo-electromecanica.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/ElectromecanicaIndustrial/JENNY CARRILLO TORRES 1714604491.jpeg" alt="">
-								<section class="portafolio-text">
-									<h2>Jenny Carrillo</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesElectromecánica/CV-JorgeChango-electromecanica.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/ElectromecanicaIndustrial/JORGE CHANGO CORREA 1713298733.jpeg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Jorge Chango</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesElectromecánica/CV-EdwinCastelo-electromecanica.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/ElectromecanicaIndustrial/EDWIN CASTELO VINUEZA 1714292792.jpeg" alt="">
-								<section class="portafolio-text">
-									<h2>Edwin Castelo</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesElectromecánica/CV-VictoriaGuano-electromecanica.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/ElectromecanicaIndustrial/VICTORIA GUANO REYES 0502934920.jpeg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Victoria Guano</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesElectromecánica/CV-DavidHerrera-electromecanica.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/ElectromecanicaIndustrial/DAVID HERRERA MERINO 1719089573.jpeg" alt="">
-								<section class="portafolio-text">
-									<h2>David Herrera</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesElectromecánica/CV-Veronica Mosquera Hernandez.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/ElectromecanicaIndustrial/VERÓNICA MOSQUERA HERNANDEZ 1716563067.jpeg"
-									alt="">
-								<section class="portafolio-text">
-									<h2>Verónica Mosquera</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesElectromecánica/CV-VeronicaAndrade-electromecanica.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/ElectromecanicaIndustrial/VERÓNICA ANDRADE GARCIA 1718689472.jpeg"
-									alt="">
-								<section class="portafolio-text">
-									<h2>Veronica Andrade</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!--================End Team Area =================-->
-
-<!--================ start footer Area  =================-->
-
-<?php include "templates/pie_pagina.php"; ?>
-
-<!--================End footer Area =================-->
+	include 'templates/encabezado.php';
+	include 'templates/teachersCareer.php';
+	include 'templates/pie_pagina.php';

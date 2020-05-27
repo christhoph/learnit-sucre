@@ -277,7 +277,7 @@ button:focus {
   border-bottom: none;
 }
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-  background: var(--primaryDark);
+  background: var(--primary);
   color: #fff;
 }
 @media (min-width: 992px) {
@@ -593,8 +593,6 @@ button:focus {
 .grid-careers-large {
   height: 470px;
   max-height: 470px;
-  width: 262.5px;
-  max-width: 262.5px;
 }
 
 .grid-careers .courses_item,
@@ -603,6 +601,18 @@ button:focus {
   height: 100%;
   width: 100%;
   margin: 0 !important;
+}
+
+.textil-box {
+  background: url("../img/courses/produccion_textil.jpg") no-repeat scroll
+    center center/cover;
+}
+
+.software-box {
+  height: 470px;
+  max-height: 470px;
+  background: url("../img/courses/course-9.jpg") no-repeat scroll center
+    center/cover;
 }
 
 .c_details_img {
@@ -712,6 +722,10 @@ button:focus {
   z-index: -1;
 }
 .home_banner_area .banner_inner .banner_content {
+  color: #fff;
+}
+.banner_content {
+  padding: 0 0.5rem;
   color: #fff;
 }
 .home_banner_area .banner_inner .banner_content h5 {
@@ -4331,14 +4345,24 @@ h6 {
 /*---------------------------------------------------- */
 /*----------------------unidadbienestar------------------------------ */
 .textbienestar {
-  height: 50px;
   width: 100%;
   background: var(--primary);
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0.75rem;
   color: #fff;
   font-size: 1.8125em;
+}
+
+.text-container,
+.single-post {
+  width: 100%;
+  margin: 0;
+}
+
+.text-container {
+  margin-left: -0.8rem;
 }
 
 /*-------------------------contactos-------------------------------*/
@@ -4415,11 +4439,9 @@ div.subapartado:hover div.info {
 /*----------------------destacados------------------------------ */
 .destacados {
   margin: 0;
-  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
   font-family: "Montserrat", sans-serif;
 }
 .contrast .destacados {
@@ -4673,13 +4695,17 @@ div.subapartado:hover div.info {
 
 /*----------------------Tarjeta Docente Inicio------------------------------ */
 
-.main_title .Titulo-Docentes {
+.main_title .titulo-docentes {
   color: rgb(33, 78, 175);
   padding-top: 25px;
   font-size: 1.5em;
 }
-.contrast .main_title .Titulo-Docentes {
+.contrast .main_title .titulo-docentes {
   color: #fff;
+}
+.teacher-content-img {
+  display: flex;
+  justify-content: center;
 }
 .portafolio img {
   width: 100%;
@@ -4733,7 +4759,6 @@ div.subapartado:hover div.info {
 .portafolio-text h2 {
   margin: 0;
   font-size: 1.454545em;
-  text-align: justify;
 }
 .portafolio-item:hover .portafolio-text {
   -webkit-transform: translateY(0%);
@@ -4748,9 +4773,6 @@ div.subapartado:hover div.info {
 /*----------------------Tarjeta Docente fin------------------------------ */
 
 /*CV´s*/
-.img-fluid-docentecv {
-  padding-left: 121px;
-}
 .contrast .Name_Doce {
   color: #fff;
 }
@@ -4765,24 +4787,22 @@ div.subapartado:hover div.info {
 /*Bolsa de empleo FIN*/
 
 /*Organizacion Rector*/
-.img-rector {
-  /*Foto del rector*/
-  margin-right: 15px;
-  margin-left: 70px;
-  margin-bottom: 10px;
-}
-.info-rectorimg {
-  /*Nombre y cargo del rector*/
-  margin-left: 53px;
-}
 .info-rector {
   /*div que contiene la foto e informacion del rector*/
-  float: left;
-  width: 410px;
-  margin-right: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-self: center;
   border: 1px solid #e6e6e6;
+  padding: 1rem;
+  margin-right: 20px;
+  float: left;
 }
 /*Organizacion Rector FIN*/
+
+.rector-experience {
+  padding: 1rem;
+}
 
 .inter {
   line-height: 25px;
@@ -4831,9 +4851,7 @@ div.subapartado:hover div.info {
   position: relative;
 }
 
-.tab_menu-item,
-.tab_close-icon,
-.tab_open-icon {
+.tab_menu-item {
   height: 1rem;
   width: 1rem;
   display: flex;
@@ -4844,25 +4862,22 @@ div.subapartado:hover div.info {
   color: #000;
 }
 
-.tab_menu-item svg,
-.tab_close-icon svg,
-.tab_open-icon svg {
+.tab_menu-item svg {
   height: 100%;
   width: 100%;
 }
 
-.tab_close-icon,
-.tab_open-icon {
-  background: #fff;
-  border-radius: 0 0 5px 0;
-  margin: 0;
-  position: absolute;
-  left: 0;
-  bottom: calc(-1rem - 1px);
+.tab_menu-item:nth-child(1) svg:first-child,
+.tab_menu-item:nth-child(3) svg:first-child {
+  height: 25px;
+  width: 25px;
+  margin-right: 1px;
 }
 
-.tab_open-icon {
-  display: none;
+.tab_menu-item:nth-child(1) svg:last-child,
+.tab_menu-item:nth-child(3) svg:last-child {
+  height: 15px;
+  width: 15px;
 }
 
 /* Accessibility Tab FIN */

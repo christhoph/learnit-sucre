@@ -2,7 +2,7 @@
   <div class="container course-container">
     <div class="col-lg-12 course_details_inner">
       <div class="col-lg-12 row justify-content-between p-0 m-0">
-        <div class="col-lg-5">
+        <div class="col-lg-5 teacher-content-img">
           <img class="img-fluid-docentecv" src="<?php echo $teacher_photo; ?>" alt="<?php echo $teacher_name; ?>">
         </div>
         <div class="col-lg-7 c_details_list">
@@ -21,7 +21,7 @@
               <a class="list-title-space">Carrera: </a>
               <span><?php echo $teacher_career; ?></span>
             </li>
-            <li class="list-item-detail">
+            <li class="list-item-detail teacher-email">
               <a class="list-title-space">Correo: </a>
               <span><?php echo $teacher_email; ?></span>
             </li>

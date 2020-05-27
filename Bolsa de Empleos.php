@@ -1,7 +1,12 @@
 <!--================Header Menu Area =================-->
 <!----- ENCABEZADO UNIVERSAL---->
 
-<?php include 'templates/encabezado.php'; ?>
+<?php 
+	$title = 'Bolsa de empleo | ';  
+	$tab_active = 4;
+	
+	include 'templates/encabezado.php';
+?>
 
 <!--================END Header Menu Area =================-->
 

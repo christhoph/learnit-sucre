@@ -1,6 +1,11 @@
 <!----- ENCABEZADO UNIVERSAL---->
 
-<?php include 'templates/encabezado.php'; ?>
+<?php 
+	$title = 'Documentación Estudiantil | ';  
+	$tab_active = 4;
+	
+	include 'templates/encabezado.php';
+?>
 
 <!--================Header Menu Area =================-->
 

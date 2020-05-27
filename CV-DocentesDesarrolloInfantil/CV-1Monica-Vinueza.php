@@ -4,7 +4,7 @@
 	$tab_active = 2;
 
 	// teacher information
-	$teacher_photo = '../img/Docentes/Duales/DesarrolloInfantil/DIEGO BONILLA RON 1719837039.jpg';
+	$teacher_photo = '../img/Docentes/Duales/DesarrolloInfantil/MÓNICA VINUEZA GRANDA 1713095048.jpg';
 	$teacher_name = 'Mónica Vinueza';
 	$teacher_professional_title = 'Magister en Educación Superior - Universidad Central del Ecuador';
 	$teacher_educational = 'A tiempo completo en el Sucre Instituto Tecnológico Superior.';

@@ -19,7 +19,7 @@
 
 					</div>
 
-					<div class="col-lg-2 col-md-6 col-sm-12 mb-5">
+					<div class="col-lg-2 col-md-6 col-sm-12 mb-5 spacing">
 
 						<div class="single-footer-widget tp_widgets">
 
@@ -105,7 +105,7 @@
 
 					</div>
 
-					<div class="col-lg-2 col-md-6 col-sm-12 mb-5">
+					<div class="col-lg-2 col-md-6 col-sm-12 mb-5 spacing">
 
 						<div class="single-footer-widget tp_widgets">
 
@@ -143,7 +143,7 @@
 
 					</div>
 
-					<div class="col-lg-4 col-md-12">
+					<div class="col-lg-4 col-md-12 ">
 
 						<aside class="f_widget news_widget">
 
@@ -173,7 +173,7 @@
 
 				</div>
 
-				<div class="row footer-bottom d-flex justify-content-between align-items-center">
+				<div class="row footer-bottom d-flex justify-content-between align-items-center px-3">
 
 					<p class="col-lg-8 col-md-8 footer-text m-0">
 

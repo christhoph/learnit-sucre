@@ -1,10 +1,10 @@
 <?php
 	// header information
-	$title = 'Gladys Eufemia | ';  
+	$title = 'Gladys Flores | ';  
 	$tab_active = 2;
 
 	// teacher information
-	$teacher_photo = '../img/Docentes/Tradicional/GestionAmbiental/GLADYS%20FLORES%20ROSALES%201002016598.jpg';
+	$teacher_photo = '../img/Docentes/Duales/DesarrolloInfantil/GLADYS%20FLORES%20ROSALES%201002016598.jpg';
 	$teacher_name = 'Gladys Eufemia Flores';
 	$teacher_professional_title = 'Magister en Docencia Universitaria y Administración de Centros Educativos - Universidad Tecnológica Indoamérica (UTI)';
 	$teacher_educational = 'A tiempo completo en el Sucre Instituto Tecnológico Superior.';

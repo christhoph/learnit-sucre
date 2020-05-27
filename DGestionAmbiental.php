@@ -1,362 +1,133 @@
-<!--================Header Menu Area =================-->
+<?php
+	// header information
+	$title = 'Gestión Ambiental | ';
+	$tab_active = 2;
 
-<?php include "templates/encabezado.php"; ?>
+	// career & teachers information
+	$career_title = 'DOCENTES DE LA CARRERA DE GESTIÓN AMBIENTAL';
+	$teachers = array(
+		// DOCENTE #1
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-alexandraerazo-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/ALEXANDRA ERAZO GUZMAN 1714243506.jpg',
+			'name'	=>	'Alexandra Erazo'
+		),
+		// DOCENTE #2
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-GillermoAnchatipan-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/Anchatipan-Guillermo.jpg',
+			'name'	=>	'Guillermo Anchatipán'
+		),
+		// DOCENTE #3
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-mariarodriguez-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/GABRIELA RODRÍGUEZ CAICEDO 0401657390.jpg',
+			'name'	=>	'María Rodríguez'
+		),
+		// DOCENTE #4
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-Jorgegonzalesgestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/JORGE GONZALES GUZMAN 1710258532.jpg',
+			'name'	=>	'Jorge Gonzales'
+		),
+		// DOCENTE #5
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-jorgecadena-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/JORGE CADENA  ANCHUNDIA 1308153665.jpg',
+			'name'	=>	'Jorge Cadena'
+		),
+		// DOCENTE #6
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-katherineguzman-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/KATHERINE GUZMAN ARIZAGA 1722966940.jpg',
+			'name'	=>	'Katherine Guzmán'
+		),
+		// DOCENTE #7
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-lenincastro-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/LENIN CASTRO PILAPAÑA 1719633099.jpg',
+			'name'	=>	'Lenin Castro'
+		),
+		// DOCENTE #8
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-lizethchela-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/LIZETH CHELA CHUGCHILAN 1723555726.jpg',
+			'name'	=>	'Chela Lizeth'
+		),
+		// DOCENTE #9
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-Daniloortiz-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/Danilo Ortiz.jpg',
+			'name'	=>	'Danilo Ortiz'
+		),
+		// DOCENTE #10
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-mariajoseanrango-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/MARÍA JOSÉ ANRANGO PAVON 1715866909.jpg',
+			'name'	=>	'María Anrango'
+		),
+		// DOCENTE #11
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-nataliadelatorre-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/NATALIA DE LA TORRE 1803844909.jpg',
+			'name'	=>	'Natalia De La Torre'
+		),
+		// DOCENTE #12
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-juancarlosnovoa-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/JUAN CARLOS NOBOA GAVILANES 1706269592.jpg',
+			'name'	=>	'Juan Noboa'
+		),
+		// DOCENTE #13
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-danielortiz-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/DANIEL ORTIZ TABANGO 1721036109.jpg',
+			'name'	=>	'Daniel Ortiz'
+		),
+		// DOCENTE #14
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-hectorperez-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/HÉCTOR PÉREZ ACOSTA 1722682521.jpg',
+			'name'	=>	'Héctor Pérez'
+		),
+		// DOCENTE #15
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-Danilominiguano-gastionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/DANILO MINIGUANO MINIGUANO 1803209921.jpg',
+			'name'	=>	'Danilo Miniguano'
+		),
+		// DOCENTE #16
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-juancarlostituaña-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/JUAN CARLOS TITUAÑA TACURI 0502795008.jpg',
+			'name'	=>	'Juan Tituaña'
+		),
+		// DOCENTE #17
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-gabrielavillagran-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/GABRIELA VILLAGRAN FREIRE 1722634076.jpg',
+			'name'	=>	'Gabriela Villagrán'
+		),
+		// DOCENTE #18
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-diegovizuete-gestionambiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/DIEGO VIZUETE FREIRE 1711968592.jpg',
+			'name'	=>	'Diego Vizuete'
+		),
+		// DOCENTE #19
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/CV-BenjaminQuijanoPeñafiel-GestionAmbiental.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/BENJAMIN QUIJANO PEÑAFIEL 1710004894.jpg',
+			'name'	=>	'Benjamin Quijano'
+		),
+		// DOCENTE #20
+		array(
+			'url'		=>	'CV-DocentesGestionAmbiental/carla-juina.php',
+			'photo'	=>	'img/Docentes/Tradicional/GestionAmbiental/CARLA JUIÑA PILLALAZA 1712424744.jpg',
+			'name'	=>	'Carla Juiña'
+		),
+	);
 
-<!--================Team Area =================-->
-
-<section class="team_area p_120">
-	<div class="container">
-		<div class="main_title">
-			<p class="Titulo-Docentes">DOCENTES DE LA CARRERA DE GESTIÓN AMBIENTAL</p>
-		</div>
-		<div class="row team_inner">
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-alexandraerazo-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/ALEXANDRA ERAZO GUZMAN 1714243506.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Alexandra Erazo</h2>
-
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-GillermoAnchatipan-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img" src="img/Docentes/Tradicional/GestionAmbiental/Anchatipan-Guillermo.jpg"
-									alt="">
-
-								<section class="portafolio-text">
-									<h2>Guillermo Anchatipán</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-mariarodriguez-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/GABRIELA RODRÍGUEZ CAICEDO 0401657390.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>María Rodríguez</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-Jorgegonzalesgestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/JORGE GONZALES GUZMAN 1710258532.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Jorge Gonzales</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-jorgecadena-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/JORGE CADENA  ANCHUNDIA 1308153665.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Jorge Cadena</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-katherineguzman-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/KATHERINE GUZMAN ARIZAGA 1722966940.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Katherine Guzmán</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-lenincastro-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/LENIN CASTRO PILAPAÑA 1719633099.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Lenin Castro</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-lizethchela-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/LIZETH CHELA CHUGCHILAN 1723555726.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Chela Lizeth</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-Daniloortiz-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img" src="img/Docentes/Tradicional/GestionAmbiental/Danilo Ortiz.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Danilo Ortiz</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-mariajoseanrango-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/MARÍA JOSÉ ANRANGO PAVON 1715866909.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>María Anrango</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-nataliadelatorre-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/NATALIA DE LA TORRE 1803844909.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Natalia De La Torre</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-juancarlosnovoa-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/JUAN CARLOS NOBOA GAVILANES 1706269592.jpg" alt="">
-								<section class="portafolio-text">
-									<h2>Juan Noboa</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-danielortiz-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/DANIEL ORTIZ TABANGO 1721036109.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Daniel Ortiz</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-hectorperez-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/HÉCTOR PÉREZ ACOSTA 1722682521.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Héctor Pérez</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-Danilominiguano-gastionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/DANILO MINIGUANO MINIGUANO 1803209921.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Danilo Miniguano</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-juancarlostituaña-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/JUAN CARLOS TITUAÑA TACURI 0502795008.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Juan Tituaña</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-gabrielavillagran-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/GABRIELA VILLAGRAN FREIRE 1722634076.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Gabriela Villagrán</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-diegovizuete-gestionambiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/DIEGO VIZUETE FREIRE 1711968592.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Diego Vizuete</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-BenjaminQuijanoPeñafiel-GestionAmbiental.php">
-					<section class=portafolio>
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/BENJAMIN QUIJANO PEÑAFIEL 1710004894.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Benjamin Quijano</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/carla-juina.php">
-					<section class="portafolio">
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Tradicional/GestionAmbiental/CARLA JUIÑA PILLALAZA 1712424744.jpg" alt="">
-								<section class="portafolio-text">
-									<h2>Carla Juiña</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-
-			<div class="col-lg-3 col-sm-6">
-				<a href="CV-DocentesGestionAmbiental/CV-jorgegarrido.html">
-					<section class="portafolio">
-						<div class="portafolio-container">
-							<section class="portafolio-item">
-								<img class="portafolio-img"
-									src="img/Docentes/Duales/ProduccionTextil/JORGE GARRIDO YEPEZ 1700159518.jpg" alt="">
-
-								<section class="portafolio-text">
-									<h2>Jorge Garrido</h2>
-								</section>
-							</section>
-						</div>
-					</section>
-				</a>
-			</div>
-
-		</div>
-	</div>
-</section>
-
-<!--================End Team Area =================-->
-
-<?php include "templates/pie_pagina.php"; ?>
-
-<!--================End footer Area =================-->
+	include 'templates/encabezado.php';
+	include 'templates/teachersCareer.php';
+	include 'templates/pie_pagina.php';

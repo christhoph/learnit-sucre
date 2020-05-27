@@ -1,6 +1,13 @@
 <!----- ENCABEZADO UNIVERSAL---->
 
-<?php include 'templates/encabezado.php'; ?>
+<?php
+    // header information
+	$title = 'Contacto | ';
+    $tab_active = 8;
+    
+    include 'templates/encabezado.php';
+?>
+
 <!--================Header Menu Area =================-->
 
 <!--================Contact Area =================-->

@@ -246,11 +246,9 @@
                           <a href="DCentroIdiomas.php" class="new-nav-link">Centro de Idiomas</a>
                         </div>
                         <div class="new-nav-item new-menu-2">
-                          <div class="new-submenu-2">
-                            <a href="https://forms.gle/SyLAYQu1dqXX7n5m9" class="new-nav-link" target="_blank">
-                              Registro Docentes
-                            </a>
-                          </div>
+                          <a href="https://forms.gle/SyLAYQu1dqXX7n5m9" class="new-nav-link" target="_blank">
+                            Registro Docentes
+                          </a>
                         </div>
                       </div>
                     </li>
