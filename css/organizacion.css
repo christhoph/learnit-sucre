@@ -3529,6 +3529,9 @@ h6 {
   padding: 0;
 }
 .img-rector {
+  height: auto;
+  width: 250px;
+  align-self: center;
   padding-top: 23px;
   /* margin-left:460px;*/
 }

@@ -131,7 +131,7 @@
 			<div class="col-lg-3 col-md-6 px-2 mb-4">
 				<div class="course_item software-box">
 					<div class="hover_text">
-						<a class="cat" href="desarrollo-software.html">Ingresar</a>
+						<a class="cat" href="desarrollo-software.php">Ingresar</a>
 						<h4>DESARROLLO DE SOFTWARE</h4>
 						<ul class="list">
 							<li><a><i class="lnr lnr-users"></i> 355</a></li>
@@ -146,7 +146,7 @@
 						<div class="courses_item">
 							<img class="car4" src="img/courses/electromecanica.jpg" alt="">
 							<div class="hover_text">
-								<a class="cat" href="electromecanica-industrial.html">Ingresar</a>
+								<a class="cat" href="electromecanica-industrial.php">Ingresar</a>
 								<h4>ELECTROMECÁNICA</h4>
 								<ul class="list">
 									<li><a><i class="lnr lnr-users"></i> 355</a></li>
@@ -159,7 +159,7 @@
 						<div class="courses_item">
 							<img class="car4" src="img/courses/electronica.jpg" alt="">
 							<div class="hover_text">
-								<a class="cat" href="electronica.html">Ingresar</a>
+								<a class="cat" href="electronica.php">Ingresar</a>
 								<h4>ELECTRÓNICA</h4>
 								<ul class="list">
 									<li><a><i class="lnr lnr-users"></i> 355</a></li>
@@ -172,7 +172,7 @@
 						<div class="courses_item">
 							<img class="car4" src="img/courses/course-11.jpg" alt="">
 							<div class="hover_text">
-								<a class="cat" href="contabilidad-superior.html">Ingresar</a>
+								<a class="cat" href="contabilidad-superior.php">Ingresar</a>
 								<h4>CONTABILIDAD SUPERIOR</h4>
 								<ul class="list">
 									<li><a><i class="lnr lnr-users"></i> 355</a></li>
@@ -185,7 +185,7 @@
 						<div class="courses_item">
 							<img class="car4" src="img/courses/course-10.jpg" alt="">
 							<div class="hover_text">
-								<a class="cat" href="marketing.html">Ingresar</a>
+								<a class="cat" href="marketing.php">Ingresar</a>
 								<h4>MARKETING</h4>
 								<ul class="list">
 									<li><a><i class="lnr lnr-users"></i> 355</a></li>

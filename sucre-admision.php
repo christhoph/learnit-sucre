@@ -1,7 +1,7 @@
 <!--================Home Banner Area =================-->
 
 <?php 
-	$title = '';  
+	$title = 'Admisiones | ';  
 	
 	include 'templates/encabezado.php';
 ?>
@@ -11,7 +11,7 @@
 <section class="blog_area single-post-area p_121">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-9 blog_details col-lg-12">
+			<div class="blog_details col-lg-12">
 				<h2>SUCRE - PROCESO DE ADMISI&Oacute;N | 2019</h2>
 
 				<ul>
@@ -24,10 +24,10 @@
 							target="_blank">Proceso De Matr&iacute;culas TDII nov 2019 - abr 2020</a></li>
 				</ul>
 
-				<section class="course_details_area p_120">
+				<section class="course_details_area">
 					<div class="container course-container">
 						<div class="col-lg-12 course_details_inner">
-							<div class="col-lg-12">
+							<div class="col-lg-12 p-0">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
 									<li class="nav-item"><a aria-controls="comments" aria-selected="false"
 											class="nav-link nav-link-button active" data-toggle="tab" href="#comments" id="comments-tab"

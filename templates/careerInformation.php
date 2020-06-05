@@ -56,13 +56,30 @@
 				<div class="tab-content" id="myTabContent">
 					<div class="tab-pane fade show active" id="comments" role="tabpanel" aria-labelledby="comments-tab">
 						<div class="comments-area">
-							<ul class="comment-text-justify">
-                <?php
-                  foreach ($requirements as $requirement):
-                    echo '<li>' . $requirement . '</li>';
-                  endforeach;
-                ?>
-							</ul>
+							<?php
+                if ($requirements):
+                  echo '<ul class="comment-text-justify">';
+                    foreach ($requirements as $requirement):
+                      echo '<li>' . $requirement . '</li>';
+                    endforeach;
+                  echo '</ul>';
+								else:
+									echo '<p class="comment-text-justify">';
+									echo '<h5>Primer Semestre</h5>';
+                  echo '<ol>';
+                    foreach ($first_semester_requirements as $requirement):
+                      echo '<li>' . $requirement . '</li>';
+                    endforeach;
+									echo '</ol>';
+									echo '<h5>Segundo a Sexto Semestre</h5>';
+									echo '<ol>';
+                    foreach ($more_semesters_requirements as $requirement):
+                      echo '<li>' . $requirement . '</li>';
+                    endforeach;
+									echo '</ol>';
+                  echo '</p>';
+                endif;
+              ?>
 						</div>
 					</div>
 					<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">

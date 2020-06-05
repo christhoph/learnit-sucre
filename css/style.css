@@ -534,6 +534,10 @@ button:focus {
   padding: 0;
 }
 
+.course-container .text-primary {
+  padding: 1rem 2rem;
+}
+
 .c_details_img img {
   width: 100%;
 }
@@ -4361,10 +4365,6 @@ h6 {
   margin: 0;
 }
 
-.text-container {
-  margin-left: -0.8rem;
-}
-
 /*-------------------------contactos-------------------------------*/
 
 div.subapartado {
@@ -4821,8 +4821,16 @@ div.subapartado:hover div.info {
   color: rgb(53, 115, 235);
 }
 
-.num li {
-  list-style: none;
+.top-container {
+  height: min-content;
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.top-container .info-rector img {
+  max-width: 350px;
 }
 
 /* interlineado*/

@@ -391,7 +391,8 @@
                   </ul>
                 </li>
                 <li class="nav-item submenu dropdown <?php if ($tab_active == 5): echo "active"; endif; ?>">
-                  <a class="nav-link">Investigación</a>
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false">Investigación</a>
                   <ul class="dropdown-menu">
                     <li class="nav-item">
                       <a class="nav-link" href="#">Reglamento de investigación</a>
@@ -408,7 +409,8 @@
                   </ul>
                 </li>
                 <li class="nav-item submenu dropdown <?php if ($tab_active == 6): echo "active"; endif; ?>">
-                  <a class="nav-link">Educación Continua</a>
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false">Educación Continua</a>
                   <ul class="dropdown-menu">
                     <li class="nav-item">
                       <a class="nav-link" href="educacion_continua.php">Cursos</a>

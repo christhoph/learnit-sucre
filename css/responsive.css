@@ -67,9 +67,6 @@
     margin-top: 27px;
     margin-bottom: 23px;
   }
-  .header_area .navbar {
-    background: #fff;
-  }
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1;
   }
@@ -151,8 +148,18 @@
   .blog_area {
     padding-bottom: 80px;
   }
+  .single-post-area {
+    padding: 3rem 1.6rem !important;
+  }
+  .single-post-area h1 {
+    text-align: center;
+  }
   .single-post-area .blog_right_sidebar {
     margin-top: 30px;
+  }
+  .comments-area h6,
+  .comments-area p {
+    padding: 1.6rem;
   }
   /* End Blog page Area css
 	============================================================================================ */
@@ -226,8 +233,14 @@
   .home_banner_area {
     height: inherit;
   }
-  .container .card {
-    margin: 12px;
+  .top-container {
+    flex-wrap: wrap;
+  }
+  .top-container .info-rector img {
+    max-width: 100%;
+  }
+  .course-container .text-primary {
+    padding: 1rem;
   }
   .portafolio-item .portafolio-text {
     transform: translateY(0%);
@@ -293,6 +306,9 @@
   .course_item img {
     width: 100%;
   }
+  .container .card {
+    width: calc(100% - 3rem);
+  }
 }
 
 @media (max-width: 660px) {
@@ -334,9 +350,13 @@
   .blog-info-container {
     margin: 0 2rem;
   }
+  .single-post-area .blog_details {
+    padding: 0;
+  }
 
   .blog_details {
-    margin: 0 1rem;
+    margin: 0;
+    padding: 0;
   }
 
   .industrial-ofert-image {
@@ -451,10 +471,6 @@
     width: inherit;
   }
 
-  .contrast .header_area .navbar .nav .nav-item .nav-link {
-    color: #000;
-  }
-
   /* Footer Area css
 	============================================================================================ */
   .footer-area {
@@ -502,6 +518,9 @@
   }
   .img-rector {
     /*Foto del rector*/
+    height: auto;
+    width: 250px;
+    align-self: center;
     margin-left: 0.5rem;
   }
   .info-rector {
