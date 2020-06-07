@@ -21,20 +21,21 @@
 
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="img/banner/web1.jpg" alt="First slide">
-			</div>
-
-			<div class="carousel-item">
-				<img class="d-block w-100" src="img/banner/web2.jpg" alt="Second slide">
-				<div class="carousel-caption d-none d-md-block">
-
-				</div>
+				<a class="cat" href="reglamentos/pmatriculacion.pdf" target="_blank">
+					<img class="d-block w-100" src="img/banner/web1.jpg" alt="First slide">
+				</a>
 			</div>
 
 			<div class="carousel-item">
 				<a class="cat" href="reglamentos/reclutamiento.pdf" target="_blank">
+					<img class="d-block w-100" src="img/banner/web2.jpg" alt="Second slide">
+				</a>
+			</div>
 
-					<img class="d-block w-100" src="img/banner/web3.jpg" alt="Third slide"> </a>
+			<div class="carousel-item">
+				<a class="cat" href="https://siau-online.senescyt.gob.ec/" target="_blank">
+					<img class="d-block w-100" src="img/banner/web3.jpeg" alt="Third slide">
+				</a>
 				<div class="carousel-caption d-none d-md-block">
 					<h3>INNOVACIÓN EN EDUCACIÓN</h3>
 				</div>

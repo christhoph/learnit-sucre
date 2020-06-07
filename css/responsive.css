@@ -309,6 +309,20 @@
   .container .card {
     width: calc(100% - 3rem);
   }
+  .admissions-container {
+    width: 100%;
+    padding: 1rem 1.5rem;
+  }
+  .admissions-container .blog_area_title {
+    font-size: 2.2em;
+    margin: 0;
+  }
+  .admissions-container ol {
+    padding-left: 1.5rem;
+  }
+  .admissions-container .text-smallest {
+    font-size: 0.75em;
+  }
 }
 
 @media (max-width: 660px) {

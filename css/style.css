@@ -327,7 +327,7 @@ button:focus {
 }
 
 .top_menu {
-  background: var(--primary);
+  background: var(--primaryDark);
 }
 .top_menu .header_social li {
   display: inline-block;
@@ -701,7 +701,6 @@ button:focus {
 /* Home Banner Area css
 ============================================================================================ */
 .home_banner_area {
-  height: 500px;
   position: relative;
   z-index: 1;
 }
@@ -4831,6 +4830,22 @@ div.subapartado:hover div.info {
 
 .top-container .info-rector img {
   max-width: 350px;
+}
+
+.admissions-container {
+  width: min-content;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  margin: auto;
+}
+
+.admissions-container .text {
+  font-size: 0.875em;
+}
+
+.contrast .admissions-container .text.text-dark,
+.contrast .Titulo-Docentes {
+  color: #fff !important;
 }
 
 /* interlineado*/

@@ -312,6 +312,10 @@
                       <a class="nav-link" href="#">Saga</a>
                       <div class="new-submenu">
                         <div class="new-nav-item new-menu-2">
+                          <a href="http://www.tecnologicosucre.edu.ec/academico/itssu/prematricula.php" target="_blank"
+                            class="new-nav-link">Pre-Matrícula</a>
+                        </div>
+                        <div class="new-nav-item new-menu-2">
                           <a href="http://www.tecnologicosucre.edu.ec/academico/itssu/index.php" target="_blank"
                             class="new-nav-link">Saga Docentes</a>
                         </div>
@@ -336,16 +340,26 @@
                     aria-expanded="false">Investigación</a>
                   <ul class="dropdown-menu">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Reglamento de investigación</a>
+                      <a class="nav-link"
+                        href="http://www.tecnologicosucre.edu.ec/page/investigacion/ReglamentodeInvestigacionDesarrolloTecnologicoeInnovaciondelInstitutoSuperiorTecnologicoSucre.pdf">Reglamento
+                        de investigación</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Líneas de investigación</a>
+                      <a class="nav-link"
+                        href="http://www.tecnologicosucre.edu.ec/page/investigacion/L%C3%ADneas%20de%20Investigaci%C3%B3n%20ISTS.pdf">Líneas
+                        de investigación</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Repositorio</a>
+                      <a class="nav-link"
+                        href="https://drive.google.com/drive/u/0/folders/1hN9r3M9-vuV6TieX6adZgfjWIJQKaxBC">Repositorio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Revista Sucre Review</a>
+                      <a class="nav-link" href="https://sucre-review-22a75.firebaseapp.com/Inicio">Revista Sucre
+                        Review</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link"
+                        href="https://drive.google.com/drive/folders/1oFTqHfm9tgOGR0fMFIulMCDulDFjKKdA?usp=sharing">Proyectos</a>
                     </li>
                   </ul>
                 </li>
