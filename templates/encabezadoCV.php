@@ -68,6 +68,12 @@
               SAGA ESTUDIANTES
             </a>
             <a class="dn_btn" href="../sucre-admision.php">ADMISIONES</a>
+            <a class="dn_btn" href="http://www.tecnologicosucre.edu.ec/academico/itssu/prematricula.php" target="_blank">
+              PRE-MATRÍCULA
+            </a>
+            <a class="dn_btn" href="https://www.ebooks7-24.com/" target="_blank">
+              BIBLIOTECA VIRTUAL
+            </a>
           </div>
         </div>
       </div>
@@ -88,82 +94,118 @@
                 <li class="nav-item <?php if ($tab_active == 1): echo "active"; endif; ?>">
                   <a class="nav-link" href="../index.php">Inicio</a></li>
                 <li class="nav-item submenu dropdown <?php if ($tab_active == 2): echo "active"; endif; ?>">
-                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                     aria-expanded="false">Sucre</a>
                   <ul class="dropdown-menu">
                     <li class="nav-item">
                       <a class="nav-link" href="../Organizacion.php">Organización</a>
                     </li>
                     <li class="nav-item new-menu">
-                      <a class="nav-link" href="#">Documentos</a>
+                      <a class="nav-link">Documentos</a>
                       <div class="new-submenu">
                         <div class="new-nav-item new-menu-2">
                           <a class="new-nav-link">Reglamentos</a>
                           <div class="new-submenu-2">
                             <div class="new-nav-item-2">
-                              <a href="https://drive.google.com/file/d/1AoTAtQq5FnYbSnnq4EW4cAavL4XzjT6p/view?usp=sharing"
-                                target="_blank" class="new-nav-link-2">Disciplinario del ISTSucre
+                              <a href="../reglamentos/01ESTATUTOSUCREInstituto2019.pdf"
+                                target="_blank" class="new-nav-link-2">
+                                Estatuto SUCRE Instituto
+                              </a>
                             </div>
+                            <!-- REGLAMENTOS 2-->
                             <div class="new-nav-item-2">
-                              <a href="https://drive.google.com/file/d/1eVSIEg9W1Jw8dJIMMP0NUkEay34TTroE/view?usp=sharing"
-                                target="_blank" class="new-nav-link-2">Consejo Estudiantil del ISTSucre
+                              <a href="../reglamentos/02Reglamento_Interno_de_Regimen Academico.pdf"
+                                target="_blank" class="new-nav-link-2">
+                                Reglamento Interno ISTSUCRE
+                              </a>
                             </div>
+                            <!-- REGLAMENTOS 3-->
                             <div class="new-nav-item-2">
-                              <a href="https://drive.google.com/file/d/1SZespLX1-uh1p75uAjxoy_Wo1wPkZajG/view?usp=sharing"
-                                target="_blank" class="new-nav-link-2">Funcionamiento del Órgano Colegiado Superior del
-                                ISTSucre
+                              <a href="../reglamentos/03ReglamentodeEleccionesdel ISTSucre.pdf"
+                                target="_blank" class="new-nav-link-2">
+                                Reglamento de Elecciones del ISTSucre
+                              </a>
                             </div>
+                            <!-- REGLAMENTOS 4-->
                             <div class="new-nav-item-2">
-                              <a href="https://drive.google.com/file/d/1PvJmi1v3C-f1YlH2C7Ev16htBZRI5fUq/view?usp=sharing"
-                                target="_blank" class="new-nav-link-2">Código de Ética ISTSucre
+                              <a href="../reglamentos/04ReglamentoDisciplinariodel ISTSucre.pdf"
+                                target="_blank" class="new-nav-link-2">
+                                Reglamento Disciplinario del ISTSucre
+                              </a>
                             </div>
+                            <!-- REGLAMENTOS 5-->
                             <div class="new-nav-item-2">
-                              <a href="https://drive.google.com/file/d/13evJr4zxxaFYgzvSrWKQBm1Vu8zjxqTo/view?usp=sharing"
-                                target="_blank" class="new-nav-link-2">Admisión, Matriculación, Reconocimiento u
-                                Homologación.
+                              <a href="../reglamentos/05ReglamentodelConsejoEstudiantildelISTSucre.pdf"
+                                target="_blank" class="new-nav-link-2">
+                                Reglamento del Consejo Estudiantil del ISTSucre
+                              </a>
                             </div>
+                            <!-- REGLAMENTOS 6-->
                             <div class="new-nav-item-2">
-                              <a href="https://drive.google.com/file/d/1ERMUU2qF9ucbMA4EXf_HOLkr8wu0YDYB/view?usp=sharing"
-                                target="_blank" class="new-nav-link-2">Investigación, Desarrollo Tecnológico e
-                                Innovación del ISTSucre.
+                              <a href="../reglamentos/06ReglamentodeAdmisionMatriculacionHomologaciondelISTSUCRE.pdf"
+                                target="_blank" class="new-nav-link-2">
+                                Reglamento de Admisión, Matriculación y Homologación del ISTSucre
+                              </a>
                             </div>
+                            <!-- REGLAMENTOS 7-->
                             <div class="new-nav-item-2">
-                              <a href="https://drive.google.com/file/d/1yJFYKeRJs8l1agUbGAjO4A4ojami5lEb/view?usp=sharing"
-                                target="_blank" class="new-nav-link-2"> Unidad de Integración Curricular del ISTSucre.
+                              <a href="../reglamentos/07ReglamentodeInvestigacionDesarrolloTecnologicoeInnovaciondelInstitutoSuperiorTecnologicoSucre.pdf"
+                                target="_blank" class="new-nav-link-2">
+                                Reglamento de Investigación del ISTSucre
+                              </a>
                             </div>
+                            <!-- REGLAMENTOS 8-->
                             <div class="new-nav-item-2">
-                              <a href="https://drive.google.com/file/d/17rP5syrVBLoGHBbNnNyJZ5HUM0HdXhbx/view?usp=sharing"
-                                target="_blank" class="new-nav-link-2"> Vinculación con la Sociedad del ISTSucre.
+                              <a href="../reglamentos/08ReglamentodeVinculacionconlaSociedaddelInstitutoSuperiorTecnologicoSucre.pdf"
+                                target="_blank" class="new-nav-link-2">
+                                Reglamento de Vinculación con la Sociedad del ISTSucre
+                              </a>
                             </div>
+                            <!-- REGLAMENTOS 9-->
                             <div class="new-nav-item-2">
-                              <a href="https://drive.google.com/file/d/1W9SzcQWwsj3XX4G1jQbemHzxBINih8_j/view?usp=sharing"
-                                target="_blank" class="new-nav-link-2"> Centro de Idiomas del ISTSucre.
+                              <a href="../reglamentos/09ReglamentodelaUnidaddeIntegracionCurriculardelInstitutoSuperiorTecnologicoSucre.pdf"
+                                target="_blank" class="new-nav-link-2">
+                                Reglamento Unidad de Integración Curricular ISTSucre
+                              </a>
                             </div>
+                            <!-- REGLAMENTOS 10-->
                             <div class="new-nav-item-2">
-                              <a href="https://drive.google.com/file/d/1_r2su1KXeFZWbMnHWd5r0_mgGatwKcw7/view?usp=sharing"
-                                target="_blank" class="new-nav-link-2">Elecciones del ISTSucre
+                              <a href="https://drive.google.com/drive/folders/1U11BC9iY5X0DDTz5xGGs8fXimhb-7bv-?usp=sharing"
+                                target="_blank" class="new-nav-link-2">
+                                Otros
+                              </a>
                             </div>
                           </div>
                         </div>
                         <div class="new-nav-item">
                           <a href="https://drive.google.com/file/d/1Qf8eLEwa5n1hHSeLAD8G7n1v5p_DXduP/view"
-                            target="_blank" class="new-nav-link">Manual de imagen</a>
+                            target="_blank" class="new-nav-link">
+                            Manual de imagen
+                          </a>
                         </div>
                         <div class="new-nav-item">
-                          <a href="https://drive.google.com/file/d/1ZYuzTYM9nUuhxCAnCAFKo1xOaSWYSmFN/view"
-                            target="_blank" class="new-nav-link">PEDI 2015 - 2020</a>
+                          <a href="../reglamentos/PEDIyANEXOS.pdf" target="_blank"
+                            class="new-nav-link">
+                            PEDI 2020 - 2025
+                          </a>
                         </div>
                         <div class="new-nav-item">
-                          <a href="https://drive.google.com/file/d/1GeH6zakHIAT3kqudsp1YFjjDeOVn-4CZ/view"
-                            target="_blank" class="new-nav-link">Dossier de presentación</a>
+                          <a href="../reglamentos/Dossier2020.pdf" target="_blank" class="new-nav-link">
+                            Dossier de presentación
+                          </a>
+                        </div>
+                        <div class="new-nav-item">
+                          <a href="../reglamentos/OrganigramaSUCRE.pdf" target="_blank" class="new-nav-link">
+                            Organigrama Institucional
+                          </a>
                         </div>
                       </div>
                     </li>
                     <li class="nav-item new-menu">
-                      <a class="nav-link" href="#">Planta Docente</a>
+                      <a class="nav-link">Planta Docente</a>
                       <div class="new-submenu">
                         <div class="new-nav-item new-menu-2">
-                          <a href="#" class="new-nav-link">Tradicionales</a>
+                          <a class="new-nav-link">Tradicionales</a>
                           <div class="new-submenu-2">
                             <div class="new-nav-item-2">
                               <a href="../DContabilidad.php" class="new-nav-link-2">Contabilidad<a>
@@ -194,7 +236,7 @@
                           </div>
                         </div>
                         <div class="new-nav-item new-menu-2">
-                          <a href="#" class="new-nav-link">Duales</a>
+                          <a class="new-nav-link">Duales</a>
                           <div class="new-submenu-2">
                             <div class="new-nav-item-2">
                               <a href="../DDesarrolloInfantil.php" class="new-nav-link-2">
@@ -217,23 +259,53 @@
                       </div>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="http://186.4.188.30:8080/share/page/site/sucre/dashboard"
+                      <a class="nav-link" href="http://186.4.188.30:8080/share/page/"
                         target="_blank">Gestión Documental</a>
                     </li>
                     <!-- Calendario Académico 2019-II -->
                     <li class="nav-item">
                       <a class="nav-link"
-                        href="https://drive.google.com/file/d/1W6jh5aGzlOLxYZysqS0glXm4XHE0rQCy/view?usp=sharing"
-                        target="_blank">Calendario Académico 2019-II</a>
+                        href="../reglamentos/Calendario-academico.pdf" target="_blank">
+                        Calendario Académico 2020-I</a>
+                    </li>
+                    <!--Rendici�n de Cuentas-->
+                    <div class="nav-item new-menu">
+                      <a class="nav-link">RENDICIÓN DE CUENTAS </a>
+                      <div class="new-submenu">
+                        <!-- RENDICI�N DE CUENTAS-->
+                        <!-- RENDICI+ON 2017-->
+                        <div class="new-nav-item new-menu-2">
+                          <a href="../reglamentos/informe rrcc 2017 final.pdf" target="_blank" class="new-nav-link">
+                            Rendición de Cuentas 2017
+                          </a>
+                        </div>
+                        <!-- RENDICI+ON 2018-->
+                        <div class="new-nav-item new-menu-2">
+                          <a href="../reglamentos/informe rrcc 2018 final.pdf" target="_blank" class="new-nav-link">
+                            Rendición de Cuentas 2018
+                          </a>
+                        </div>
+                        <div class="new-nav-item new-menu-2">
+                          <a href="../reglamentos/informe rrcc 2019 final.pdf" target="_blank" class="new-nav-link">
+                            Rendición de Cuentas 2019
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <li class="nav-item">
+                      <a class="nav-link"
+                        href="http://www.asistencia.tecnologicosucre.edu.ec/actividades/" target="_blank">
+                        Registro sucre
+                      </a>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item submenu dropdown <?php if ($tab_active == 3): echo "active"; endif; ?>">
-                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                     aria-expanded="false">Carreras</a>
                   <ul class="dropdown-menu">
                     <li class="nav-item new-menu">
-                      <a class="nav-link" href="#">Tradicionales</a>
+                      <a class="nav-link">Tradicionales</a>
                       <div class="new-submenu">
                         <div class="new-nav-item new-menu-2">
                           <a href="../contabilidad-superior.php" class="new-nav-link">Contabilidad Superior</a>
@@ -263,7 +335,7 @@
                       </div>
                     </li>
                     <li class="nav-item new-menu">
-                      <a class="nav-link" href="#">Duales</a>
+                      <a class="nav-link">Duales</a>
                       <div class="new-submenu">
                         <div class="new-nav-item new-menu-2">
                           <a href="../desarrollo-infantil-integral.php" class="new-nav-link">Desarrollo Infantil
@@ -276,15 +348,18 @@
                     </li>
                     <!--Centro de idioma-->
                     <li class="nav-item new-menu">
-                      <a class="nav-link" href="#">CENTRO DE IDIOMAS</a>
+                      <a class="nav-link">CENTRO DE IDIOMAS</a>
                     <li>
                       <!--  fin centro de Idiomas --->
                   </ul>
                 </li>
                 <li class="nav-item submenu dropdown <?php if ($tab_active == 4): echo "active"; endif; ?>">
-                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                     aria-expanded="false">Servicios Estudiantiles</a>
                   <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="../practicas_pre.php">Proceso prácticas pre-profesionales</a>
+                    </li>
                     <li class="nav-item">
                       <a class="nav-link" href="../Descargas.php">Documentación Estudiantil</a>
                     </li>
@@ -292,7 +367,7 @@
                       <a class="nav-link" href="../unidaddebienestarestudiantil.php">Unidad De Bienestar Estudiantil</a>
                     </li>
                     <li class="nav-item new-menu">
-                      <a class="nav-link" href="#">Bolsa De Empleo</a>
+                      <a class="nav-link">Bolsa De Empleo</a>
                       <div class="new-submenu">
                         <div class="new-nav-item new-menu-2">
                           <a href="../Bolsa de Empleos.php" class="new-nav-link">Bolsa De Empleo</a>
@@ -309,8 +384,12 @@
                         target="_blank">Repositorio digital</a>
                     </li>
                     <li class="nav-item new-menu">
-                      <a class="nav-link" href="#">Saga</a>
+                      <a class="nav-link">Saga</a>
                       <div class="new-submenu">
+                        <div class="new-nav-item new-menu-2">
+                          <a href="http://www.tecnologicosucre.edu.ec/academico/itssu/prematricula.php" target="_blank"
+                            class="new-nav-link">Pre-Matrícula</a>
+                        </div>
                         <div class="new-nav-item new-menu-2">
                           <a href="http://www.tecnologicosucre.edu.ec/academico/itssu/index.php" target="_blank"
                             class="new-nav-link">Saga Docentes</a>
@@ -318,6 +397,10 @@
                         <div class="new-nav-item new-menu-2">
                           <a href="http://tecnologicosucre.edu.ec/academico/itssu/loginalumnado.php" target="_blank"
                             class="new-nav-link">Saga Estudiantes</a>
+                        </div>
+                        <div class="new-nav-item new-menu-2">
+                          <a href="http://istcpp.tecnologicosucre.edu.ec/" target="_blank"
+                            class="new-nav-link">Saga Consejo</a>
                         </div>
                       </div>
                     </li>
@@ -327,37 +410,44 @@
                     </li>
                     <!--SeguiMIENTO A GRADUADOS-->
                     <li class="nav-item">
-                      <a class="nav-link" href="#">SEGUIMIENTO A GRADUADOS</a>
+                      <a class="nav-link">SEGUIMIENTO A GRADUADOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="http://www.ebooks7-24.com/?ed=256"
+                        target="_blank">Biblioteca virtual ebooks7-24</a>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item submenu dropdown <?php if ($tab_active == 5): echo "active"; endif; ?>">
-                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                     aria-expanded="false">Investigación</a>
                   <ul class="dropdown-menu">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Reglamento de investigación</a>
+                      <a class="nav-link" href="../investigacion/ReglamentodeInvestigacionDesarrolloTecnologicoeInnovaciondelInstitutoSuperiorTecnologicoSucre.pdf" target="_blank">Reglamento de investigación</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Líneas de investigación</a>
+                      <a class="nav-link" href="../investigacion/lineas de Investigacion ISTS.pdf" target="_blank">Líneas de investigación</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Repositorio</a>
+                      <a class="nav-link" href="https://drive.google.com/drive/u/0/folders/1hN9r3M9-vuV6TieX6adZgfjWIJQKaxBC" target="_blank">Repositorio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Revista Sucre Review</a>
+                      <a class="nav-link" href="https://sucre-review-22a75.firebaseapp.com/" target="_blank">Revista Sucre Review</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://drive.google.com/drive/folders/1oFTqHfm9tgOGR0fMFIulMCDulDFjKKdA" target="_blank">Proyectos</a>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item submenu dropdown <?php if ($tab_active == 6): echo "active"; endif; ?>">
-                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                     aria-expanded="false">Educación Continua</a>
                   <ul class="dropdown-menu">
                     <li class="nav-item">
                       <a class="nav-link" href="../educacion_continua.php">Cursos</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">CertificaciÓN por Competencias</a>
+                      <a class="nav-link">Certificación por Competencias</a>
                     </li>
                   </ul>
                 </li>

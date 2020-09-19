@@ -80,21 +80,21 @@
 		),
 		// DOCENTE #13
 		array(
-			'url'		=>	'CV-DocentesDesarrolloInfantil/CV-Monicavinuesa.php',
-			'photo'	=>	'img/Docentes/Duales/DesarrolloInfantil/MÓNICA VINUEZA GRANDA 1713095048.jpg',
-			'name'	=>	'Mónica Vinueza'
-		),
-		// DOCENTE #14
-		array(
-			'url'		=>	'CV-DocentesDesarrolloInfantil/CV-jorgegarrido.php',
-			'photo'	=>	'img/Docentes/Duales/DesarrolloInfantil/JORGE GARRIDO YEPEZ 1700159518.jpg',
-			'name'	=>	'Jorge Garrido'
-		),
-		// DOCENTE #15
-		array(
 			'url'		=>	'CV-DocentesDesarrolloInfantil/CV-1Ana-Billareal.php',
 			'photo'	=>	'img/Docentes/Duales/DesarrolloInfantil/ANA VILLAREAL ROSERO 0400716486.jpg',
 			'name'	=>	'Ana Villarreal'
+		),
+		// DOCENTE #14
+		array(
+			'url'		=>	'CV-DocentesDesarrolloInfantil/CV-Monicasosa.php',
+			'photo'	=>	'img/Docentes/Duales/DesarrolloInfantil/Monica Sosa.jpg',
+			'name'	=>	'Mónica Sosa'
+		),
+		// DOCENTE #15
+		array(
+			'url'		=>	'CV-DocentesDesarrolloInfantil/CV-Anavaldiviezo.php',
+			'photo'	=>	'img/Docentes/Duales/DesarrolloInfantil/Ana Valdiviezo.jpg',
+			'name'	=>	'Ana Valdiviezo'
 		),
 	);
 

@@ -241,6 +241,16 @@
 					<a href="sucre-admision.php">Ingresar</a>
 				</div>
 			</div>
+			<div class="caja-destacados">
+					
+				    <img src="img/latest-blog/32.jpg" width="100%" height="400px">
+					
+					<div class="content">
+						<h3>Centro de Idiomas</h3>
+						<p>Ingresa a la web del Centro de Idiomas del Instituto Superior Tecnológico Sucre.</p><br>
+							<a>Ingresar</a>
+					</div>
+				</div>
 		</div>
 	</div>
 </section>
@@ -258,7 +268,7 @@
 
 
 			<div class="card">
-				<img src="img/educontinua/educacion_continua.jpg">
+				<img src="img/educontinua/educacion_continua.jpg" style="height: 185px;">
 				<h4>Relaciones Humanas</h4>
 				<p>Este curso está enfocado en el mejoramiento de interrelación con las personas, aprenderá a resolver
 					situaciones de conflicto laboral.</p>

@@ -26,7 +26,7 @@
 		),
 		// DOCENTE #4
 		array(
-			'url'		=>	'CV-DocentesElectronica/CV-LinaMiño-Electronica.php',
+			'url'		=>	'CV-DocentesElectronica/CV-LinaMino-Electronica.php',
 			'photo'	=>	'img/Docentes/Tradicional/Electronica/FRANCISCA  MIÑO RAZO 1706521273.jpeg',
 			'name'	=>	'Lina Miño'
 		),
@@ -38,13 +38,13 @@
 		),
 		// DOCENTE #6
 		array(
-			'url'		=>	'#',
+			'url'		=>	'',
 			'photo'	=>	'img/Docentes/Tradicional/Electronica/JUNIOR  FIGUEROA OLMEDO 0802820183.jpeg',
 			'name'	=>	'Junior Figueroa'
 		),
 		// DOCENTE #7
 		array(
-			'url'		=>	'CV-DocentesElectronica/CV-Lenin Sáenz-Electronica.php',
+			'url'		=>	'CV-DocentesElectronica/CV-Lenin Saenz-Electronica.php',
 			'photo'	=>	'img/Docentes/Tradicional/Electronica/LENIN SAENZ MARTINEZ 1718456708.jpeg',
 			'name'	=>	'Lenin Sáenz'
 		),
@@ -62,7 +62,7 @@
 		),
 		// DOCENTE #10
 		array(
-			'url'		=>	'CV-DocentesElectronica/CV-DavidSosaZúñiga.php',
+			'url'		=>	'CV-DocentesElectronica/CV-DavidSosa.php',
 			'photo'	=>	'img/Docentes/Tradicional/Electronica/DAVID SOSA ZUNIGA 1721734281.jpeg',
 			'name'	=>	'David Sosa'
 		),
@@ -92,27 +92,15 @@
 		),
 		// DOCENTE #15
 		array(
-			'url'		=>	'CV-DocentesElectronica/CV-EduardoVelasco-Electronica.php',
-			'photo'	=>	'img/Docentes/Tradicional/Electronica/Velazco-Eduardo.jpg',
-			'name'	=>	'Eduardo Velazco'
-		),
-		// DOCENTE #16
-		array(
 			'url'		=>	'CV-DocentesElectronica/CV-VeronicaVelasco-Electronica.php',
 			'photo'	=>	'img/Docentes/Tradicional/Electronica/VERÓNICA  VELASCO PULLUPAXI 1713952669.jpeg',
 			'name'	=>	'Verónica Velazco'
 		),
-		// DOCENTE #17
+		// DOCENTE #16
 		array(
 			'url'		=>	'CV-DocentesElectronica/CV-MelanyYarad-Electronica.php',
 			'photo'	=>	'img/Docentes/Tradicional/Electronica/MELANY YARAD JACOME 1716242993.jpeg',
 			'name'	=>	'Melany Yarad'
-		),
-		// DOCENTE #18
-		array(
-			'url'		=>	'CV-DocentesElectronica/CV-Monica_Andrango.php',
-			'photo'	=>	'img/Docentes/Tradicional/Electronica/MONICA ANDRANGO CALVACHI 1714340641.jpeg',
-			'name'	=>	'Mónica Andrango'
 		),
 	);
 

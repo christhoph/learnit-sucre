@@ -13,10 +13,10 @@
 	$career_campus = 'Norte (Campus Norte (Matriz): Av. 10 de Agosto N26-27 y Luis Mosquera)';
 	// Requisito de ingreso tab information
 	$requirements = array(
-		'Copia de título de bachiller o acta de grado notariado',
+		'Título de Bachiller',
 		'Haber aprobado el examen de ingreso',
 		'Asignación de cupo por parte de SENESCYT',
-		'Copia de cédula y certificado de votación (color)',
+		'Copia de cédula y certificado de votación',
 		'Carta de aceptación en un CIBV/CDI'
 	);
 	// Perfil de egreso tab information

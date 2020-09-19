@@ -20,19 +20,19 @@
 		),
 		// DOCENTE #3
 		array(
-			'url'		=>	'CV-DocentesIdiomas/ANDRÉS-SIMBAÑA-USHIÑA.php',
+			'url'		=>	'CV-DocentesIdiomas/ANDRES-SIMBA.php',
 			'photo'	=>	'img/Docentes/Idiomas/ANDRÉS SIMBAÑA USHIÑA 1717818700.jpeg',
 			'name'	=>	'Andrés Simbaña'
 		),
 		// DOCENTE #4
 		array(
-			'url'		=>	'CV-DocentesIdiomas/ALEXANDRA-MAZA-PAZMIÑO.php',
+			'url'		=>	'CV-DocentesIdiomas/ALEXANDRA-MAZA.php',
 			'photo'	=>	'img/Docentes/Idiomas/ALEXANDRA MAZA PAZMIÑO 1720736782.jpg',
 			'name'	=>	'Alexandra Maza'
 		),
 		// DOCENTE #5
 		array(
-			'url'		=>	'CV-DocentesIdiomas/ALEXANDRA-MAZA-PAZMIÑO.php',
+			'url'		=>	'CV-DocentesIdiomas/ANABEL-PORTERO.php',
 			'photo'	=>	'img/Docentes/Idiomas/ANABEL PORTERO 1802729226.jpg',
 			'name'	=>	'Anabel Portero'
 		),
@@ -50,33 +50,33 @@
 		),
 		// DOCENTE #8
 		array(
-			'url'		=>	'CV-DocentesIdiomas/ESTANISLAO-PAUTA.php',
-			'photo'	=>	'img/Docentes/Idiomas/ESTANISLAO PAUTA PILAPANTA 1711873743.jpg',
-			'name'	=>	'Estanislao Pauta'
-		),
-		// DOCENTE #9
-		array(
 			'url'		=>	'CV-DocentesIdiomas/RICHARD-COBA.php',
 			'photo'	=>	'img/Docentes/Idiomas/RICHARD COBA MORALES 1711256907.jpg',
 			'name'	=>	'Richard Coba'
 		),
-		// DOCENTE #10
+		// DOCENTE #9
 		array(
 			'url'		=>	'CV-DocentesIdiomas/FLOR-TIPAN.php',
 			'photo'	=>	'img/Docentes/Idiomas/FLOR MARÍA TIPAN TITUAÑA 1720974227.jpeg',
 			'name'	=>	'Flor Tipan'
 		),
-		// DOCENTE #11
+		// DOCENTE #10
 		array(
 			'url'		=>	'CV-DocentesIdiomas/NATALIA-TORRES.php',
 			'photo'	=>	'img/Docentes/Idiomas/NATALIA TORRES PUERTAS 1720216413.jpeg',
 			'name'	=>	'Natalia Torres'
 		),
-		// DOCENTE #12
+		// DOCENTE #11
 		array(
 			'url'		=>	'CV-DocentesIdiomas/YESSENIA-ROSERO.php',
 			'photo'	=>	'img/Docentes/Idiomas/YESSENIA ROSERO CELI 1716925779.jpeg',
 			'name'	=>	'Yessenia Rosero'
+		),
+		// DOCENTE #12
+		array(
+			'url'		=>	'CV-DocentesIdiomas/CV-Ricardo Chiliquinga.php',
+			'photo'	=>	'img/Docentes/Idiomas/Ricardo Chiliquinga.jpg',
+			'name'	=>	'Ricardo Chiliquinga'
 		),
 	);
 

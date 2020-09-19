@@ -6,7 +6,7 @@
 	// teacher information
 	$teacher_photo = '../img/Docentes/Tradicional/Desarrollo/Janneth Tuqueres.jpg';
 	$teacher_name = 'Janneth Tuqueres Garcés';
-	$teacher_professional_title = 'Licenciada en Matem&áticas - Universidad Central del Ecuador';
+	$teacher_professional_title = 'Licenciada en Matemáticas - Universidad Central del Ecuador';
 	$teacher_educational = 'A tiempo completo en el Sucre Instituto Tecnológico Superior.';
 	$teacher_career = 'Desarrollo de Software.';
 	$teacher_email = 'jtuqueres@tecnologicosucre.edu.ec';

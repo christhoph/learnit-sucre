@@ -1,244 +1,356 @@
-<!--================Home Banner Area =================-->
-
 <?php 
 	$title = 'Admisiones | ';  
 	
 	include 'templates/encabezado.php';
 ?>
 
-<!--================Header Menu Area =================-->
-
-<section class="blog_area single-post-area p_121">
+<!--================ Admisiones Inicio =================-->
+<section class="blog_area p_120">
 	<div class="container">
-		<div class="row">
-			<div class="blog_details col-lg-12">
-				<h2>SUCRE - PROCESO DE ADMISI&Oacute;N | 2019</h2>
+		<div class="admissions-container">
+			<!-- ===========  TITULO PRINCIPAL=======-->
+			<hr>
+			<h4 class="blog_area_title text-center">PROCESO DE MATR&Iacute;CULA</h4>
+			<hr>
 
-				<ul>
-					<li><b class="colo">Actualizar la ficha n&uacute;mero 1 de diagn&oacute;stico de segundo a quinto (S&oacute;lo
-							para la carrera de TDII - LLENAR EL FORMULARIO) -&gt; <a
-								href="https://drive.google.com/file/d/1HpGCKag3_fGgV3ZPatp-HrVptpOWzYxQ/view?usp=sharing"
-								target="_blank">FICHA DE DIAGN&Oacute;STICO TDII</a></b></li>
-					<li>Manual de&nbsp;<a
-							href="https://drive.google.com/file/d/1Fq8MRtgf8jCTkYxgPSeBAvabypmoF_rp/view?usp=sharing"
-							target="_blank">Proceso De Matr&iacute;culas TDII nov 2019 - abr 2020</a></li>
-				</ul>
+			<h3 class=" text-primary ">Descargar la Gu&iacute;a de matr&iacute;cula</h3>
+			<a href="img/importante/pmatriculacion.pdf" target="_blank" class="btn btn-primary mx-auto">Gu&iacute;a</a>
+			<br>
+			<br>
+			<!-- PASO 1-->
+			<h3 class="estilo-titulo">Paso 1</h3>
+			<div class="d-flex flex-wrap align-items-center">
+				<b class="diri colo text m-1">Llenar encuestas</b>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSfh_Hohp5IzGG6sUr9V5e83t0paZk2BVJ2ojV1_icINM9_eBw/viewform"
+					target="_blank" class="btn btn-primary text m-1">Encuesta Drogas</a>
+				<b class="diri colo text m-1">Llenar Ficha</b>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSfnSDZIZkFwSb2z7CwhWUvfBUpA9SX2mPwvfwTcg7FeJVumXg/viewform"
+					target="_blank" class="btn btn-primary text m-1">Ficha Socio Econ&oacutemica</a>
+			</div>
 
-				<section class="course_details_area">
-					<div class="container course-container">
-						<div class="col-lg-12 course_details_inner">
-							<div class="col-lg-12 p-0">
-								<ul class="nav nav-tabs" id="myTab" role="tablist">
-									<li class="nav-item"><a aria-controls="comments" aria-selected="false"
-											class="nav-link nav-link-button active" data-toggle="tab" href="#comments" id="comments-tab"
-											role="tab">Alumnos nuevos</a></li>
-									<li class="nav-item"><a aria-controls="home" aria-selected="true" class="nav-link nav-link-button"
-											data-toggle="tab" href="#home" id="home-tab" role="tab">Segundo a sexto semestre</a></li>
-									<li class="nav-item"><a aria-controls="profile" aria-selected="false" class="nav-link nav-link-button"
-											data-toggle="tab" href="#profile" id="profile-tab" role="tab">Pasos para todos los semestres</a>
-									</li>
-									<li class="nav-item"><a aria-controls="contact" aria-selected="false" class="nav-link nav-link-button"
-											data-toggle="tab" href="#contact" id="contact-tab" role="tab">Segunda y tercera
-											matr&iacute;cula</a></li>
+			<!--FIN PASO 1-->
 
-								</ul>
+			<!-- PASO 2-->
+			<!-- ======BLOQUE 1    ALUMNOS NUEVOS======-->
+			<hr>
+			<h3 class="estilo-titulo">Paso 2</h3>
+			<span class="text font-weight-bold colo">
+				Realizar el proceso de pre matr&iacute;cula, seg&uacuten calendario.
+			</span>
 
-								<div class="tab-content" id="myTabContent">
-									<div aria-labelledby="comments-tab" class="tab-pane fade show active" id="comments" role="tabpanel">
-										<div class="comments-area">
-											<p class="comment-text-justify"></p>
+			<h5 class="text-primary  text pl-3  ml-1 mr-1 pb-1 pt-3">Alumnos nuevos</a></h5>
 
-											<h5>El d&iacute;a de la matr&iacute;cula.</h5>
-											<a>Los alumnos deben acercarse a las instalaciones de ITS Sucre, en la fecha y horas
-												se&ntilde;aladas m&aacute;s adelante, portando la siguiente documentaci&oacute;n:</a>
+			<ol class="num">
+				<li class=" text pl-3  ml-1 mr-1 pb-1 pt-1">
+					Ingresa a <a class="estilo-titulo" href="http://www.tecnologicosucre.edu.ec" target="_blank">
+						www.tecnologicosucre.edu.ec
+					</a>
+				</li>
+				<b class="text-primary  text pl-3  ml-1 mr-1 pb-1 pt-3">
+					Servicios Estudiantiles -> Saga -> Pre Matr&iacute;cula
+				</b>
 
-											<ul class="lista"><br />
-												<li><b>1. </b>Copia de C&eacute;dula de Identidad y Papeleta de Votaci&oacute;n a COLOR, por
-													separado cada copia.<br />
-													<b>2. </b>Copia de T&iacute;tulo o Acta de Bachiller (notariada).<br />
-													<b>3. </b>Documento de Asignaci&oacute;n de Cupo (SENESCYT).<br />
-													<b>4. </b>Descargar y llenar Formulario de Matr&iacute;cula (SENESCYT) <a
-														href="https://drive.google.com/file/d/1ezBeXIN3ZThUgDZ-ekEWJJmscc1IGwzH/view"
-														target="_blank">DESCARGAR FORMULARIO</a>, instructivo para llenar formulario <a
-														href="https://drive.google.com/file/d/1-2li6OX3oigBysOe2XEoOyHSwwCP98-K/view"
-														target="_blank">VER FORMULARIO</a>.<br />
-													<b>5. </b>Dos juegos de separadores pl&aacute;sticos (del color asignado a cada carrera ver
-													&iacute;tem 14).<br />
-													<b>6. </b>Si tiene alguna discapacidad, presente el carnet de discapacidad del MSP o alguna
-													identificaci&oacute;n que valide la condici&oacute;n.<br />
-													<b>7. </b>Formulario de actualizaci&oacute;n de datos. <a
-														href="https://drive.google.com/file/d/1yRJOnbgFrsiMgxjo1sdnObtMsCuIiPgM/view"
-														target="_blank">DESCARGAR</a><br />
-													<b>8. </b>Revisar en Google Drive que el / la estudiante haya completado la Ficha
-													Socioecon&oacute;mica. <a
-														href="https://docs.google.com/forms/d/e/1FAIpQLSfWyEyBCvdt8CoF7fEjtBWESYc1-jKd_VCJyfzCfPIwBMfXQQ/viewform"
-														target="_blank">LLENAR FORMULARIO</a><br />
-													<b>9. </b>Hoja de Registro de Asignaci&oacute;n de Materias. <a
-														href="https://drive.google.com/file/d/1vHtOMCdpqsdjraCNzUHS4sq2x1dSwOOu/view"
-														target="_blank">DESCARGAR DOCUMENTO</a><br />
-													<b>10. </b>Desarrollar la encuesta de prevenci&oacute;n y consumo de drogas. <a
-														href="https://docs.google.com/forms/d/1418Nie1a9jkTeA4xbE_BBB0Ma67fBIfO6Syc8f0oRDw/viewform?edit_requested=true"
-														target="_blank">LLENAR FORMULARIO</a><br />
-													<b>11. </b>Traer en formato digital (flash, memoria extra&iacute;ble) su hoja de vida
-													actualizada con el formato SOCIO EMPLEO. Ingresar al portal <a
-														href="http://www.socioempleo.gob.ec" target="_blank">http://www.socioempleo.gob.ec</a> y
-													generarlo. <bi>EL ARCHIVO SER&Aacute; EN PDF Y DEBER&Aacute; LLEVAR EL NOMBRE DEL ESTUDIANTE,
-														EJEMPLO: Jos&eacute; P&eacute;rez.</bi><br />
-													<b>12. </b>Foto tama&ntilde;o carnet pegada en la ficha de Actualizaci&oacute;n de
-													Datos.<br />
-													Se asignan los horarios de clases de semestre que van a cursar, seg&uacute;n su carrera y
-													jornada respectiva.<br />
-													<b>13. </b>Carpeta de cart&oacute;n de acuerdo al color de cada carrera.</li>
-											</ul>
+				<li class=" text pl-3  ml-1 mr-1 pb-1 pt-1">
+					Escribe tu n&uacute;mero de c&eacute;dula
+				</li>
 
-											<ul><br />
-												<li>AZUL (Electromec&aacute;nica)</li>
-												<li>ROJA (Electr&oacute;nica)</li>
-												<li>VERDE (Gesti&oacute;n Ambiental)</li>
-												<li>CAF&Eacute; (Recursos Audiovisuales)</li>
-												<li>AMARILLA (Electricidad)</li>
-												<li>ROSADA (Desarrollo Infantil Integral)</li>
-												<li>BLANCA (Atenci&oacute;n Primaria de la Salud)</li>
-												<li>TOMATE (Producci&oacute;n Textil)</li>
-											</ul>
+				<li class=" text pl-3  ml-1 mr-1 pb-1 pt-1">Selecciona el Instituto</li>
 
-											<p></p>
-										</div>
-									</div>
+				<li class=" text pl-3  ml-1 mr-1 pb-1 pt-1">
+					Carga tu c&eacute;dula t&iacute;tulo o acta de grado en formato pdf (apellidos y nombre en may&uacute;sculas y
+					el nombre del documento. Ej. P&Eacute;REZ P&Eacute;REZ JUAN PEDRO C&Eacute;DULA)
+				</li>
 
-									<div aria-labelledby="home-tab" class="tab-pane fade" id="home" role="tabpanel">
-										<div class="objctive_text">
-											<p class="comment-text-justify"></p>
+				<li class=" text pl-3  ml-1 mr-1 pb-1 pt-1">
+					Escribe los datos solicitados en los tres formularios: Datos personales, Generales y de contacto,
+					formaci&oacute;n y familiares
+				</li>
+				<b class="diri colo text pl-3  ml-1 mr-1 pb-3 pt-3">Estudiantes nuevos</b>
+			</ol>
+			<!-- ====== FIN BLOQUE 1======-->
 
-											<h5>REQUISITOS PARA LAS MATR&Iacute;CULAS DE SEGUNDO A SEXTO SEMESTRE</h5>
 
-											<ul class="lista">
-												<li><b>1. </b>Copia de C&eacute;dula de Identidad y Papeleta de Votaci&oacute;n a COLOR, por
-													separado cada copia.<br />
-													<b>2. </b>Copia de T&iacute;tulo o Acta de Bachiller (notariada) - <b>ES SOLO PARA
-														REINGRESO</b>.<br />
-													<b>3. </b>Formulario de actualizaci&oacute;n de datos. <a
-														href="https://drive.google.com/file/d/1yRJOnbgFrsiMgxjo1sdnObtMsCuIiPgM/view"
-														target="_blank">DESCARGAR</a><br />
-													<b>4. </b>Descargar y llenar Formulario de Matr&iacute;cula (SENESCYT) <a
-														href="https://drive.google.com/file/d/1ezBeXIN3ZThUgDZ-ekEWJJmscc1IGwzH/view"
-														target="_blank">DESCARGAR FORMULARIO</a>, instructivo para llenar formulario <a
-														href="https://drive.google.com/file/d/1-2li6OX3oigBysOe2XEoOyHSwwCP98-K/view"
-														target="_blank">VER FORMULARIO</a>.<br />
-													<b>5. </b>Revisar en Google Drive que el / la estudiante haya completado la Ficha
-													Socioecon&oacute;mica. <a
-														href="https://docs.google.com/forms/d/e/1FAIpQLSfWyEyBCvdt8CoF7fEjtBWESYc1-jKd_VCJyfzCfPIwBMfXQQ/viewform"
-														target="_blank">LLENAR FORMULARIO</a><br />
-													<b>6. </b>Desarrollar la encuesta de prevenci&oacute;n y consumo de drogas. <a
-														href="https://docs.google.com/forms/d/1418Nie1a9jkTeA4xbE_BBB0Ma67fBIfO6Syc8f0oRDw/viewform?edit_requested=true"
-														target="_blank">LLENAR FORMULARIO</a><br />
-													<b>7. </b>Traer en formato digital (flash, memoria extra&iacute;ble) su hoja de vida
-													actualizada con el formato SOCIO EMPLEO. Ingresar al portal <a
-														href="http://www.socioempleo.gob.ec" target="_blank">http://www.socioempleo.gob.ec</a> y
-													generarlo. <b>EL ARCHIVO SER&Aacute; EN PDF Y DEBER&Aacute; LLEVAR EL NOMBRE DEL ESTUDIANTE,
-														EJEMPLO: Jos&eacute; P&eacute;rez.</b><br />
-													<b>8. </b>Hoja de Registro de Asignaci&oacute;n de Materias. <a
-														href="https://drive.google.com/file/d/1vHtOMCdpqsdjraCNzUHS4sq2x1dSwOOu/view"
-														target="_blank">DESCARGAR DOCUMENTO</a><br />
-													<b>9. </b>Foto tama&ntilde;o carnet pegada en la ficha de Actualizaci&oacute;n de Datos.<br />
-													<b>10. </b>Impresi&oacute;n del registro acad&eacute;mico del sistema <a
-														href="http://tecnologicosucre.edu.ec/academico/itssu/loginalumnado.php" target="_blank">SAGA
-														SUCRE - Estudiantes</a>.<br />
-													<b>11. </b>Horarios de clases de semestre que van a cursar, seg&uacute;n su carrera y jornada
-													respectiva.<br />
-													<b>12. </b>Ficha de Levantamiento de la Informaci&oacute;n (S&oacute;lo para la carrera de
-													TDII). <a href="https://drive.google.com/file/d/1jgjhWRSGxN-ct0MXiJWqVKw53lXOaLRZ/view"
-														target="_blank">DESCARGAR DOCUMENTO</a><br />
-													<b>13. </b>Actualizar la ficha n&uacute;mero 1 de diagn&oacute;stico de segundo a quinto
-													(S&oacute;lo para la carrera de TDII - LLENAR EL FORMULARIO). <a
-														href="https://drive.google.com/file/d/1HpGCKag3_fGgV3ZPatp-HrVptpOWzYxQ/view?usp=sharing"
-														target="_blank">FICHA DE DIAGN&Oacute;STICO TDII</a><br />
-													<b>14. </b>Solicite al coordinador de carrera seg&uacute;n su especialidad la carpeta con sus
-													documentos y la falta de los requisitos para la matr&iacute;cula respectiva.</li>
-											</ul>
+			<!-- ======cuadro de NOTA======-->
 
-											<p></p>
-										</div>
-									</div>
+			<b class="diri colo text">Nota:</b>
+			<span class="text">
+				En los formularios de Matr&iacute;cula, Pr&aacute;cticas/Vinculaci&oacute;n y Becas no deber&aacute;s llenar ya
+				que eres estudiante nuevo.
+			</span>
 
-									<div aria-labelledby="profile-tab" class="tab-pane fade" id="profile" role="tabpanel">
-										<div class="objctive_text">
-											<p class="comment-text-justify"></p>
+			<!-- ====== FIN cuadro de NOTA======-->
 
-											<h3>PASOS PARA LA MATR&Iacute;CULA DE TODOS LOS SEMESTRES</h3>
+			<!-- ======BLOQUE 2======-->
+			<br>
+			<br>
+			<h5 class="text-primary  text pl-3  ml-1 mr-1 pb-1 pt-3">Alumnos antiguos</h5>
 
-											<p></p>
+			<ol class="num">
+				<li class=" text pl-3  ml-1 mr-1 pb-1 pt-1">
+					Ingresa a <a class="estilo-titulo" href="http://www.tecnologicosucre.edu.ec" target="_blank">
+						www.tecnologicosucre.edu.ec
+					</a>
+				</li>
+				<b class="text-primary  text pl-3  ml-1 mr-1 pb-1 pt-3">
+					Servicios Estudiantiles -> Saga -> Pre Matr&iacute;cula
+				</b>
 
-											<ul class="lista">
-												<li><b>PASO 1.- </b>Revisi&oacute;n de documentos, los documentos que revisan que los
-													estudiantes tienen todos los documentos exigidos para la matriculaci&oacute;n.<br />
-													<b>PASO 2.- </b>Asignaci&oacute;n de materias, el alumno con los docentes de carrera
-													llenar&aacute;n el formulario de Registro de asignaciones de materias.<br />
-													<b>PASO 3.- </b>Digitalizaci&oacute;n de la matr&iacute;cula, los documentos de un plan de
-													estudios SAGA - SUCRE, verificando que el estudiante haya pasado Por los pasos anteriores. Al
-													finalizar la subida de datos, el estudiante recibi&oacute; su certificado de matr&iacute;cula,
-													el &uacute;nico documento que acredita como estudiante de la instituci&oacute;n.<br />
-													<br />
-													<b>NOTA: </b>Si el alumno no se registra en el sistema, no est&aacute; legalmente matriculado.
-												</li>
-												<br />
-												<br />
-												&nbsp;
-											</ul>
+				<li class=" text pl-3  ml-1 mr-1 pb-1 pt-1">
+					Escribe tu n&uacute;mero de c&eacute;dula
+				</li>
 
-											<p></p>
-											&nbsp;
+				<li class=" text pl-3  ml-1 mr-1 pb-1 pt-1">
+				Actualizar, en caso de ser necesario, la información en: Datos personales, Generales y de Contacto, formación y familiares.
+				</li>
 
-											<p></p>
-										</div>
-									</div>
+				<li class=" text pl-3  ml-1 mr-1 pb-1 pt-1">
+				En Formulario Matrícula ingresar la fecha de inicio de la carrera. En fecha de matrícula deberás colocar la fecha cuando realizas el proceso. Señala si repites materias. Recuerda que al perder asignaturas se pierde la gratuidad.
+				</li>
 
-									<div aria-labelledby="contact-tab" class="tab-pane fade" id="contact" role="tabpanel">
-										<div class="objctive_text">
-											<p class="comment-text-justify"></p>
+				<li class=" text pl-3  ml-1 mr-1 pb-1 pt-1">
+				Agregar, una a una, las materias a seguir. El mismo sistema te permitirá acceder a ellas.
+				</li>
 
-											<h5>SEGUNDAS MATR&Iacute;CULAS</h5>
+				<li class=" text pl-3  ml-1 mr-1 pb-1 pt-1">
+				En caso de tener arrastres, deberás notificar en el formulario respectivo e indicar el semestre en el cual los vas a cursar. Recuerda tomarlos en horarios y jornadas diferentes para que no exista cruce. Describir la asignatura, paralelo y jornada del arrastre.
+				</li>
+				<b class="diri colo text pl-3  ml-1 mr-1 pb-3 pt-3">Estudiantes antiguos</b>
+			</ol>
 
-											<ul class="lista">
-												<li>Los estudiantes que van a matricularse por segunda vez en una misma asignatura.<br />
-													<b>1. </b>Los estudiantes que han perdido el semestre hasta en dos (2) asignaturas, se han
-													matriculado al siguiente semestre y se toman hasta 25 cr&eacute;ditos, que no hay asignaturas
-													de secuencia.<br />
-													<b>2. </b>Los estudiantes que han perdido en tres (3) asignaturas, pueden matricularse al
-													siguiente semestre, y pueden tomar hasta 15 cr&eacute;ditos que no sean en asignaturas de
-													secuencia.<br />
-													<b>3. </b>Los estudiantes que han perdido en m&aacute;s de tres asignaturas deben matricularse
-													s&oacute;lo en las asignaturas de arrastre.<br />
-													&nbsp;
-													<h5>TERCERAS MATR&Iacute;CULAS</h5>
-													Para los estudiantes de Primer semestre de malla antigua, que han perdido por segunda vez en
-													alguna asignatura, No habr&aacute; terceras matr&iacute;culas: el estudiante debe matricularse
-													en Primer semestre en la carrera redise&ntilde;ada.<br />
-													Para los estudiantes de Primer semestre de malla antigua, hemos perdido m&aacute;s de tres
-													asignaturas y un resumen de membrillo (15) cr&eacute;ditos, el estudiante debe matricularse en
-													primer semestre en la carrera redise&ntilde;ada.<br />
-													Para los estudiantes que tengan que tomar una o m&aacute;s asignaturas por tercera
-													ocasi&oacute;n en la misma materia, deben matricularse obligatoriamente en las asignaturas de
-													tercera matr&iacute;cula.
-													<p></p>
-												</li>
-											</ul>
-										</div>
-									</div>
+			<!-- LOGOS POR CARRERA-->
+			<br>
+			<!--<button type="button" class="btn btn-info btn-arrow-right">Ver Horarios </button>  BOTON CON HOVER-->
 
-									<div aria-labelledby="comments-tab" class="tab-pane fade show active" id="comments" role="tabpanel"></div>
-								</div>
-							</div>
+			<h3 class="estilo-titulo  text pl-3  ml-1 mr-1 pb-1 pt-1">Ver Horarios de clases</h3>
+
+			<div class="row flex-lg-nowrap justify-content-center text-primary pl-3  ml-1 mr-1 pb-1 pt-1">
+				<!--=======LOGOS FILA 1======-->
+				<div class="m-2">
+					<a href="img/importante/Contabilidad HORARIO AFC y CPP.pdf" target="_blank">
+						<img class="portafolio-img" src="img/img-carreras/contabilidad.jpg" alt="Sucre" width="150" height="60">
+					</a>
+				</div>
+
+				<div class="m-2">
+					<a href="img/importante/Tdii HORARIOS.pdf" target="_blank">
+						<img class=" portafolio-img" src="img/img-carreras/desarrollo-infantil-integral.jpg" alt="Sucre" width="150"
+							height="60">
+					</a>
+				</div>
+
+				<div class="m-2">
+					<a href="img/importante/Software HORARIO CPP.pdf" target="_blank">
+						<img class="portafolio-img" src="img/img-carreras/desarrollo-software.jpg" alt="Sucre" width="150"
+							height="60">
+					</a>
+				</div>
+
+				<div class="m-2">
+					<a href="img/importante/Electricidad HORARIO.pdf" target="_blank">
+						<img class="portafolio-img" src="img/img-carreras/electricidad.jpg" alt="Sucre" width="150" height="60">
+					</a>
+				</div>
+
+				<div class="m-2">
+					<a href="img/importante/Electromecanica HORARIO.pdf" target="_blank">
+						<img class="portafolio-img" src="img/img-carreras/electromecanica.jpg" alt="Sucre" width="150" height="60">
+					</a>
+				</div>
+			</div>
+
+			<!--=======LOGOS FILA 2======-->
+
+			<div class="row flex-lg-nowrap justify-content-center text-primary  text pl-3  ml-1 mr-1 pb-1 pt-1">
+				<div class="m-2">
+					<a href="img/importante/Electronica HORARIO.pdf" target="_blank">
+						<img class="portafolio-img" src="img/img-carreras/electronica.jpg" alt="Sucre" width="150" height="60">
+					</a>
+				</div>
+
+				<div class="m-2">
+					<a href="img/importante/Ambiental HORARIO.pdf" target="_blank">
+						<img class="portafolio-img" src="img/img-carreras/gestion-ambiental.jpg" alt="Sucre" width="150"
+							height="60">
+					</a>
+				</div>
+
+				<div class="m-2">
+					<a href="img/importante/Marketing HORARIO.pdf" target="_blank">
+						<img class="portafolio-img" src="img/img-carreras/marketing.jpg" alt="Sucre" width="150" height="60">
+					</a>
+				</div>
+
+				<div class="m-2">
+					<a href="img/importante/Audiovisuales HORARIO.pdf" target="_blank">
+						<img class="portafolio-img" src="img/img-carreras/produccion-audiovisual.jpg" alt="Sucre" width="150"
+							height="60">
+					</a>
+				</div>
+
+				<div class="m-2">
+					<a href="img/importante/Textil HORARIO.pdf" target="_blank">
+						<img class="portafolio-img" src="img/img-carreras/produccion-textil.jpg" alt="Sucre" width="150"
+							height="60">
+					</a>
+				</div>
+			</div>
+			<br>
+
+			<br>
+
+			<b class="diri colo text pl-3  ml-1 mr-1 pb-1 pt-1 ">Calendario para pre matr&iacutecula</b>
+
+			<div class="row text-primary text pl-3  ml-1 mr-1 pb-1 pt-1">
+				<div class="col-6 col-lg-3">1er semestre</div>
+				<div class="col-6">01 de junio </div>
+			</div>
+
+			<div class="row text-primary  text pl-3  ml-1 mr-1 pb-1 pt-1">
+				<div class="col-6 col-lg-3">2do semestre</div>
+				<div class="col-6">02 de junio </div>
+			</div>
+
+			<div class="row text-primary text pl-3  ml-1 mr-1 pb-1 pt-1">
+				<div class="col-6 col-lg-3">3er semestre</div>
+				<div class="col-6">03 de junio </div>
+			</div>
+
+			<div class="row text-primary  text pl-3  ml-1 mr-1 pb-1 pt-1">
+				<div class="col-6 col-lg-3">4to semestre</div>
+				<div class="col-6">04 de junio </div>
+			</div>
+
+			<div class="row text-primary text pl-3  ml-1 mr-1 pb-1 pt-1">
+				<div class="col-6 col-lg-3"> 5to y 6to semestre </div>
+				<div class="col-6">05 de junio </div>
+			</div>
+
+			<!-- ======FIN BLOQUE 2======-->
+
+			<!-- ======PASO 3======-->
+
+			<hr>
+			<h3 class="  estilo-titulo "> Paso 3</h3>
+			<b class="diri colo text pl-3  ml-1 mr-1 pb-3 pt-3">Validaci&oacute;n de pre matr&iacute;cula </b>
+			<ul>
+				<li class=" text pl-3  ml-1 mr-1 pb-1 pt-1">
+					Ingresa al sistema
+					<a href="https://siau-online.senescyt.gob.ec/" target="_blank">SIAU</a>
+					de la Senescyt para generar el documento de no adeudamiento.
+					<a href="reglamentos/INSTRUCTIVO-DE-USO-SIAU-IST- PUBLICOS.pdf" target="_blank"
+						class="btn btn-primary mx-auto">
+						Gu&iacute;a SIAU
+					</a>
+				</li>
+				<li class="text pl-3  ml-1 mr-1 pb-1 pt-1">
+					Recibir&aacutes en tu correo electr&oacutenico la validaci&oacuten de la pre matr&iacutecula, en el horario
+					establecido.
+				</li>
+			</ul>
+
+			<!-- ====== FIN PASO 3======-->
+
+			<!-- PASO 4 -->
+
+			<hr>
+			<h3 class="  estilo-titulo "> Paso 4</h3>
+			<b class="diri colo text pl-3">Legalizaci&oacute;n de matr&iacute;cula </b>
+
+			<p class="colo text pl-3  ml-1 mr-1 pb-1 pt-1">
+				En el sistema Saga Estudiantes, de la web institucional, deber&aacutes subir los siguientes archivos:
+			</p>
+			<ul>
+				<li class="text pl-3  ml-1 mr-1 pb-1 pt-1">
+					Documento de no adeudamiento a la Senescyt (sistema SIAU)
+				</li>
+				<li class="text pl-3  ml-1 mr-1 pb-1 pt-1">
+					Formulario de Matr&iacute;cula de la Senescy.
+				</li>
+				<li class="text pl-3  ml-1 mr-1 pb-1 pt-1">
+					Ficha del Estudiante con su respectiva firma (descargarlo en Saga estudiantes)
+				</li>
+			</ul>
+
+			<!--================Descargas Final =================-->
+
+			<!--================logos =================-->
+
+			<section class="team_area p_120">
+				<div class="container">
+					<div class="main_title ">
+						<p class="Titulo-Docentes colo">DESCARGA FORMULARIO POR INSTITUTO</p>
+					</div>
+					<div class="row text-center">
+						<!-- logo #1-->
+						<div class="col-lg-3 col-sm-6">
+							<a href="reglamentos/IST SUCRE.pdf" target="_blank">
+								<section class=portafolio>
+									<!--boton para descargar archivo-->
+									<a href="reglamentos/IST SUCRE.pdf" target="_blank" class="btn btn-primary mx-auto my-1">IST Sucre</a>
+								</section>
+							</a>
+						</div>
+						<!-- logo #2-->
+						<div class="col-lg-3 col-sm-6">
+							<a href=" reglamentos/IST CONSEJO PROVINCIAL DE PICHINCHA.pdf" target="_blank">
+								<section class=portafolio>
+									<!--boton para descargar archivo-->
+									<a href=" reglamentos/IST CONSEJO PROVINCIAL DE PICHINCHA.pdf" target="_blank"
+										class="btn btn-primary mx-auto my-1">IST Consejo Prov</a>
+								</section>
+							</a>
+						</div>
+
+						<!-- logo #3-->
+						<div class="col-lg-3 col-sm-6">
+							<a href=" reglamentos/IST ANDRES F CORDOVA QUITO.pdf" target="_blank">
+								<section class=portafolio>
+									<!--boton para descargar archivo-->
+									<a href=" reglamentos/IST ANDRES F CORDOVA QUITO.pdf" target="_blank"
+										class="btn btn-primary mx-auto my-1">
+										IST Andr&eacutes F
+									</a>
+								</section>
+							</a>
+						</div>
+
+						<!-- logo# 4-->
+						<div class="col-lg-3 col-sm-6">
+							<a href="reglamentos/IST CINCO DE JUNIO.pdf" target="_blank">
+								<section class=portafolio>
+									<!--boton para descargar archivo-->
+									<a href="reglamentos/IST CINCO DE JUNIO.pdf" target="_blank" class="btn btn-primary mx-auto my-1">IST
+										5 de
+										Junio</a>
+								</section>
+							</a>
 						</div>
 					</div>
-				</section>
-			</div>
+				</div>
+			</section>
+
+			<hr>
+
+			<h3 class="estilo-titulo text pl-3  ml-1 mr-1 pb-3 pt-3">Si tienes inquietudes escr&iacute;benos a: </h3>
+			<b class="diri colo">IST SUCRE </b>
+			<br>
+			<br>
+			<a class="estilo-titulo text-smallest" href="">tdii@tecnologicosucre.edu.ec </a> <br>
+			<a class="estilo-titulo text-smallest" href="">gambiental@tecnologicosucre.edu.ec </a> <br>
+			<a class="estilo-titulo text-smallest" href="">textil@tecnologicosucre.edu.ec </a> <br>
+			<a class="estilo-titulo text-smallest" href="">audiovisuales@tecnologicosucre.edu.ec </a> <br>
+			<a class="estilo-titulo text-smallest" href="">electronica@tecnologicosucre.edu.ec </a> <br>
+			<a class="estilo-titulo text-smallest" href="">electromecanica@tecnologicosucre.edu.ec </a> <br>
+			<a class="estilo-titulo text-smallest" href="">electricidad@tecnologicosucre.edu.ec </a> <br>
+			<a class="estilo-titulo text-smallest" href="">contabilidad@tecnologicosucre.edu.ec </a> <br>
+			<a class="estilo-titulo text-smallest" href="">desarrollodesoftware@tecnologicosucre.edu.ec </a> <br>
+			<a class="estilo-titulo text-smallest" href="">marketing@tecnologicosucre.edu.ec </a> <br> <br>
+			<br>
+			<br>
 		</div>
 	</div>
 </section>
 
-<!--================ FOOTER UNIVERSAL  =================-->
-
+<!--================ start footer Area  =================-->
 <?php include 'templates/pie_pagina.php'; ?>
-
-<!--================ FOOTER UNIVERSAL  =================-->
+<!--================End footer Area =================-->

@@ -6,17 +6,17 @@
 	// career information
 	$career_image = 'img/img-carreras/gestion-ambiental.jpg';
 	$career_modality = 'Presencial - Campus Norte (Matriz)';
-	$career_duration = '3 años';
+	$career_duration = '2 años y medio';
 	$career_time = 'Matutina, vespertina y nocturna';
 	$career_price = 'Gratuito';
 	$career_title = 'Tecnólogo Superior en Gestión Ambiental';
 	$career_campus = 'Norte (Campus Norte (Matriz): Av. 10 de Agosto N26-27 y Luis Mosquera)';
 	// Requisito de ingreso tab information
 	$requirements = array(
-		'Copia de título de bachiller o acta de grado notariado',
+		'Título de Bachiller',
 		'Haber aprobado el examen de ingreso',
 		'Asignación de cupo por parte de SENESCYT',
-		'Copia de cédula y certificado de votación (color)'
+		'Copia de cédula y certificado de votación'
 	);
 	// Perfil de egreso tab information
 	$career_graduation_profile = array(
@@ -37,76 +37,46 @@
 	$career_table_description_final = 'Para obtener el título de Tecnólogo Superior en Gestión Ambiental, los estudiantes deberán cumplir al menos 400 horas de prácticas pre-profesionales y vinculación con la sociedad, además de 240 horas destinadas al trabajo de titulación.';
 	$curriculum = array(
 		array(
-			'Comunicación y lenguaje',
-			'Derechos humanos y valores',
-			'Gestión empresarial',
-			'Proyectos',
-			'Mercadotecnia',
-			'Asesoramiento de trabajo de titulación',
+			'Informática',
+			'Redacción Técnica',
+			'Sistema de Información Geográfica',
+			'Evaluación de Impactos Ambientales',
+			'Evaluación de Productos y Tecnologías',
 		),
 		array(
-			'Realidad nacional',
-			'Matemáticas II',
-			'Matemáticas III',
-			'Administración de empresas',
-			'Evaluación de impactos II',
-			'Economía y ambiente II',
+			'Metodología de la Investigación',
+			'Bioquímica',
+			'Bioestadística',
+			'Economía Ambiental',
+			'Biorremediación Ambiental',
 		),
 		array(
-			'Matemáticas I',
-			'Física II',
-			'Física III',
-			'Evaluación de impactos I',
-			'Economía y ambiente I',
-			'Legislación ambiental',
+			'Química General',
+			'Química Ambiental',
+			'Diseño Asistido por Computadora',
+			'Control y Contaminación Ambiental',
+			'Sistema de Calidad y Gestión Ambiental',
 		),
 		array(
-			'Física I',
-			'Inglés II',
-			'Inglés III',
-			'Salud y medio ambiente',
-			'Manejo de efluentes',
-			'Climatología',
+			'Física',
+			'Etnobiología',
+			'Sistema de Seguridad y Salud Ocupacional',
+			'Diseño de Proyectos',
+			'Administración y Emprendimiento',
 		),
 		array(
-			'Inglés I',
-			'Investigación II',
-			'Administración de talleres',
+			'Educación Ambiental',
+			'Botánica',
+			'Zoología',
+			'Procesos Biotecnológicos',
+			'Bioética',
+		),
+		array(
+			'Matemáticas',
+			'Sistemas Ecológicos',
 			'Técnicas de monitoreo ambiental',
-			'Química III',
-			'Gestión y mantenimiento de especies',
-		),
-		array(
-			'Investigación I',
-			'Computación II',
-			'Contaminación y control ambiental',
-			'Química II',
-			'Laboratorio de Química II',
-			'Límites permisibles',
-		),
-		array(
-			'Computación I',
-			'Gestión ambiental',
-			'Microbiología general II',
-			'Laboratorio de Química I',
-			'Bio-indicadores de vegetales',
-			'',
-		),
-		array(
-			'Educación ambiental',
-			'Microbiología general I',
-			'Interpretación ambiental',
-			'Flora y fauna ecuatoriana',
-			'Bio-indicadores de animales',
-			'',
-		),
-		array(
-			'Recursos naturales',
-			'Ecología',
-			'Química I',
-			'',
-			'',
-			'',
+			'Legislación Ambiental',
+			'Trabajo de Titulación',
 		),
 	);
 

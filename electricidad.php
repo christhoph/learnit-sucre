@@ -13,10 +13,10 @@
 	$career_campus = 'Sur (Av. Teodoro Gómez de la Torre S14 - 72 y Joaquin Gutierrez)';
 	// Requisito de ingreso tab information
 	$requirements = array(
-		'Copia de título de bachiller o acta de grado notariado',
+		'Título de Bachiller',
 		'Haber aprobado el examen de ingreso',
 		'Asignación de cupo por parte de SENESCYT',
-		'Copia de cédula y certificado de votación (color)'
+		'Copia de cédula y certificado de votación'
 	);
 	// Perfil de egreso tab information
 	$career_graduation_profile = array(

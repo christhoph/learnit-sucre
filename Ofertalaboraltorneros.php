@@ -9,33 +9,14 @@
 
 <!--================Header Menu Area =================-->
 
-<!--================Home Banner Area =================-->
-<section class="banner_area">
-	<div class="banner_inner d-flex align-items-center teachers-banner">
-		<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background="">
-		</div>
-		<div class="container">
-			<div class="banner_content text-center">
-				<h2>OFERTA LABORAL-Torneros</h2>
-				<div class="page_link">
-					<a href="index.html">Inicio</a>
-					<a>Servicios Estudiantiles</a>
-					<a href="Bolsa de Empleos.html">Bolsa de Empleo</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--================End Home Banner Area =================-->
-
 <!--================Bolsa de Empleo  =================-->
 <div class="container">
 	<div class="row">
 		<div class="col-12 my-4 d-flex flex-column justify-content-center">
 			<div class="textoOLT">
-				<h2>OFERTA LABORAL-Torneros </h2>
-				<p>La empresa REBINDUC desa contratar TORNEROS con conocimientos en MATALIZACIONES</p>
-				<p>Interesados escribir a: <span id="cloaka0182380e46fff00e89bb16c513c8bf0">This email address is being
+				<h2 class="text-center bolsa-empleo">Oferta Laboral Torneros </h2>
+				<p class="text-center bolsa-empleo">La empresa REBINDUC desea contratar TORNEROS con conocimientos en METALIZACIONES</p>
+				<p class="text-center bolsa-empleo">Interesados escribir a: <span id="cloaka0182380e46fff00e89bb16c513c8bf0">This email address is being
 						protected
 						from spambots. You need JavaScript enabled to view it.</span>
 					<script type='text/javascript'>

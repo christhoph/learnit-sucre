@@ -1,7 +1,7 @@
 <section class="course_details_area p_120">
 	<div class="container course-container ">
 		<hr>
-		<h2 class="text-primary"><?php echo $course_title; ?></h2>
+		<h2 class="text-primary text-center"><?php echo $course_title; ?></h2>
 		<hr>
 		<div class="col-lg-12 course_details_inner">
 			<div class="col-lg-12">

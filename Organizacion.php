@@ -24,10 +24,10 @@
 						<a class="nav-link nav-link-button" id="home-tab" data-toggle="tab" href="#home" role="tab"
 							aria-controls="home" aria-selected="true">Mensaje del Rector</a>
 					</li>
-					<li class="nav-item">
+					<!-- <li class="nav-item">
 						<a class="nav-link nav-link-button" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
 							aria-controls="profile" aria-selected="false">Vicerrector</a>
-					</li>
+					</li> -->
 					<li class="nav-item">
 						<a class="nav-link nav-link-button" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
 							aria-controls="contact" aria-selected="false">Misión y Visión</a>
@@ -140,7 +140,7 @@
 								Rector del Instituto Superior Tecnológico SUCRE</p>
 						</div>
 					</div>
-					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+					<!-- <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 						<div class="objctive_text">
 							<h4>Edgar Fabián Cobos Alvarado, MSc.</h4>
 							<h6> VICERRECTOR ACADÉMICO DEL SUCRE Instituto Superior Tecnológico</h6>
@@ -219,7 +219,7 @@
 								Huelva – Departamento de Sociología y Trabajo Social. 28 de julio de 2011.</li>
 
 						</div>
-					</div>
+					</div> -->
 					<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 						<div class="objctive_text">
 

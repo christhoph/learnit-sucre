@@ -14,7 +14,7 @@
 		),
 		// DOCENTE #2
 		array(
-			'url'		=>	'cvelectricidad/Mario Domínguez.php',
+			'url'		=>	'cvelectricidad/Mario Dominguez.php',
 			'photo'	=>	'img/Docentes/Tradicional/Electricidad/MARIO DOMÍNGUEZ VILLACRES 1802587939.jpeg',
 			'name'	=>	'Mario Domínguez'
 		),
@@ -26,7 +26,7 @@
 		),
 		// DOCENTE #4
 		array(
-			'url'		=>	'cvelectricidad/Rubén Alfonso Peña.php',
+			'url'		=>	'cvelectricidad/Ruben Alfonso.php',
 			'photo'	=>	'img/Docentes/Tradicional/Electricidad/RUBEN PEÑA GIL 1756977839.jpeg',
 			'name'	=>	'Rubén Peña'
 		),
@@ -44,13 +44,13 @@
 		),
 		// DOCENTE #7
 		array(
-			'url'		=>	'cvelectricidad/Diego González Sacoto.php',
+			'url'		=>	'cvelectricidad/Diego Gonzalez Sacoto.php',
 			'photo'	=>	'img/Docentes/Tradicional/Electricidad/DIEGO GONZÁLEZ SACOTO 1717183675.jpeg',
 			'name'	=>	'Diego González'
 		),
 		// DOCENTE #8
 		array(
-			'url'		=>	'#',
+			'url'		=>	'',
 			'photo'	=>	'img/Docentes/Tradicional/Electricidad/OSWALDO LOOR SALDARRIGA 1312803289.jpeg',
 			'name'	=>	'Oswaldo Loor'
 		),
@@ -62,7 +62,7 @@
 		),
 		// DOCENTE #10
 		array(
-			'url'		=>	'cvelectricidad/Flavio López.php',
+			'url'		=>	'cvelectricidad/Flavio Lopez.php',
 			'photo'	=>	'img/Docentes/Tradicional/Electricidad/FLAVIO LOPEZ VASCO 1712353596.jpeg',
 			'name'	=>	'Flavio Lopez'
 		),
@@ -89,6 +89,12 @@
 			'url'		=>	'cvelectricidad/Mauricio Rosero.php',
 			'photo'	=>	'img/Docentes/Tradicional/Electricidad/MAURICIO  ROSERO YUGSI 1714755921.jpeg',
 			'name'	=>	'Mauricio Rosero'
+		),
+		// DOCENTE #15
+		array(
+			'url'		=>	'cvelectricidad/Sebastian Jacome.php',
+			'photo'	=>	'img/Docentes/Tradicional/Electricidad/Sebastian Jacome.jpg',
+			'name'	=>	'Sebastián Jácome'
 		),
 	);
 

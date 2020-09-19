@@ -14,7 +14,7 @@
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <h2 class="text-center mt-5">BOLSA DE EMPLEO</h2>
+      <h2 class="bolsa-empleo text-center mt-5">BOLSA DE EMPLEO</h2>
     </div>
   </div>
   <div class="table-responsive my-5 table-container">

@@ -84,8 +84,6 @@
                     <br>
                     <p>
                         <h4 id="ube">PROYECTOS DE LA UBE</h4>
-                        <p>La UBE desarrollará los siguientes proyectos en beneficio de los estudiantes de la Comunidad
-                            Sucre:</p>
                         <p>Bienestar socioeconómico</p>
                         <ul>
                             <li>Análisis socioeconómico de estudiantes matriculados del ITS Sucre.</li>

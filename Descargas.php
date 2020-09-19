@@ -22,7 +22,7 @@
       <div class="container pb-3">
         <div class="text-white">
           <h4 class="pb-2">Requisitos para llenar solicitudes </h4>
-          <p> • Con el objetivo de prestar un mejor servicio y evitar inconvenientes innecesarios las solicitudes
+          <p>Con el objetivo de prestar un mejor servicio y evitar inconvenientes innecesarios las solicitudes
             dirigidas al Rectorado y/o a la Unidad de Bienestar Estudiantil (UBE) deben cumplir los siguientes
             requisitos: </p>
           <p> • El documento debe ser llenado a computadora (esto incluye nombres, número de cédula, número telefónico,
@@ -145,6 +145,16 @@
       </tr>
 
       <tr>
+        <td class="text-left">Procedimiento de prácticas preprofesionales</td>
+        <td class="text-center">13/11/2019</td>
+        <td>
+          <div class="table-button-container">
+            <a href="descargasDE/Procedimiento_pract_preprofesionales.pdf" target="_blank" class="btn btn-primary mx-auto">Descargar</a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
         <td class="text-left">Solicitud prácticas preprofesionales</td>
         <td class="text-center">19/10/2019</td>
         <td>
@@ -159,7 +169,7 @@
         <td class="text-center">09/02/2019</td>
         <td>
           <div class="table-button-container">
-            <a href="descargasDE/Formato Solicitud Abstracts Validado 2019-02-22.docx"
+            <a href="descargasDE/Formato Solicitud Abstracts Final.docx"
               class="btn btn-primary mx-auto">Descargar</a>
           </div>
         </td>
@@ -171,6 +181,46 @@
         <td>
           <div class="table-button-container">
             <a href="descargasDE/hoja centro de idiomas.docx" class="btn btn-primary mx-auto">Descargar</a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="text-left">INGLÉS Solicitud Cambio de Horario </td>
+        <td class="text-center">24/07/2020</td>
+        <td>
+          <div class="table-button-container">
+            <a href="descargasDE/INGLES  Solicitud Cambio de Horario.docx" class="btn btn-primary mx-auto">Descargar</a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="text-left">INGLÉS Solicitud Anulación de matrícula </td>
+        <td class="text-center">24/07/2020</td>
+        <td>
+          <div class="table-button-container">
+            <a href="descargasDE/INGLES Solicitud Anulacion de Matricula.docx" class="btn btn-primary mx-auto">Descargar</a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="text-left">INGLÉS Solicitud Certificado Académico </td>
+        <td class="text-center">30/07/2020</td>
+        <td>
+          <div class="table-button-container">
+            <a href="descargasDE/INGLES Solicitud Certificado de Estudios.docx" class="btn btn-primary mx-auto">Descargar</a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="text-left">INGLÉS Solicitud Récord Académico </td>
+        <td class="text-center">30/07/2020</td>
+        <td>
+          <div class="table-button-container">
+            <a href="descargasDE/INGLES Solicitud Record Academico.docx" class="btn btn-primary mx-auto">Descargar</a>
           </div>
         </td>
       </tr>

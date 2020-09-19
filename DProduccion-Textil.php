@@ -8,37 +8,37 @@
 	$teachers = array(
 		// DOCENTE #1
 		array(
-			'url'		=>	'CV-DocentesProducciónTextil/CV-normaoviedo-producciontextil.php',
+			'url'		=>	'CV-DocentesProduccionTextil/CV-normaoviedo.php',
 			'photo'	=>	'img/Docentes/Duales/ProduccionTextil/NORMA OVIEDO VINUEZA 1708305337.jpg',
 			'name'	=>	'Norma Oviedo'
 		),
 		// DOCENTE #2
 		array(
-			'url'		=>	'CV-DocentesProducciónTextil/CV-sanchezedison-producciontextil.php',
+			'url'		=>	'CV-DocentesProduccionTextil/CV-sanchezedison.php',
 			'photo'	=>	'img/Docentes/Duales/ProduccionTextil/EDISON SÁNCHEZ VELASQUEZ 1707786040.jpg',
 			'name'	=>	'Edison Sanchez'
 		),
 		// DOCENTE #3
 		array(
-			'url'		=>	'CV-DocentesProducciónTextil/CV-darwingodoy-producciontextil.php',
+			'url'		=>	'CV-DocentesProduccionTextil/CV-darwingodoy.php',
 			'photo'	=>	'img/Docentes/Duales/ProduccionTextil/DARWIN GODOY RODRIGUEZ 1717977936.jpg',
 			'name'	=>	'Darwin Godoy'
 		),
 		// DOCENTE #4
 		array(
-			'url'		=>	'CV-DocentesProducciónTextil/CV-katyaguerra-producciontextil.php',
+			'url'		=>	'CV-DocentesProduccionTextil/CV-katyaguerra.php',
 			'photo'	=>	'img/Docentes/Duales/ProduccionTextil/KATYA GUERRA CHAMARRO 0401019971.jpg',
 			'name'	=>	'Katya Guerra'
 		),
 		// DOCENTE #5
 		array(
-			'url'		=>	'CV-DocentesProducciónTextil/CV-lorenabanda-producciontextil.php',
+			'url'		=>	'CV-DocentesProduccionTextil/CV-lorenabanda.php',
 			'photo'	=>	'img/Docentes/Duales/ProduccionTextil/LORENA BANDA CORNEJO 1711760312.jpg',
 			'name'	=>	'Lorena Banda'
 		),
 		// DOCENTE #6
 		array(
-			'url'		=>	'CV-DocentesProducciónTextil/CV-burbano-angel.php',
+			'url'		=>	'CV-DocentesProduccionTextil/CV-burbanoangel.php',
 			'photo'	=>	'img/Docentes/Duales/ProduccionTextil/Angelo Burbano Salinas 1105895808.png',
 			'name'	=>	'Ángel Burbano'
 		),
