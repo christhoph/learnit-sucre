@@ -4893,4 +4893,25 @@ div.subapartado:hover div.info {
 
 /* Accessibility Tab FIN */
 
+.principal-card {
+  width: 90rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.contrast .card > [id*="opcion"],
+.contrast .principal-card,
+.contrast .principal-card__child {
+  background: var(--primaryDark);
+}
+
+.contrast [id*="idAcordeon"] > .card {
+  background: var(--primary);
+  border-radius: 0;
+}
+
+.contrast .card.pre-profesional__card {
+  border: 1px solid var(--primary);
+}
+
 /*# sourceMappingURL=style.css.map */

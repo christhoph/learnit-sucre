@@ -53,7 +53,7 @@
   }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   .container-destacados {
     flex-wrap: wrap;
   }
@@ -251,6 +251,10 @@
   .portafolio-item .portafolio-text {
     transform: translateY(0%);
     text-align: center;
+  }
+
+  .pre-profesional__card {
+    margin: 1rem 0;
   }
 }
 
